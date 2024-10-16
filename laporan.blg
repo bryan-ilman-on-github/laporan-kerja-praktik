@@ -1,0 +1,60 @@
+This is BibTeX, Version 0.99d (TeX Live 2024)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: laporan.aux
+The style file: apalike.bst
+A level-1 auxiliary file: _internals/sampul.aux
+A level-1 auxiliary file: _internals/judul_dalam.aux
+A level-1 auxiliary file: src/00-frontMatter/pengesahanKP.aux
+A level-1 auxiliary file: src/00-frontMatter/abstrak.aux
+A level-1 auxiliary file: src/00-frontMatter/abstract.aux
+A level-1 auxiliary file: src/01-body/bab1.aux
+A level-1 auxiliary file: src/01-body/bab2.aux
+A level-1 auxiliary file: src/01-body/bab3.aux
+A level-1 auxiliary file: _internals/pustaka.aux
+A level-1 auxiliary file: _internals/markLampiran.aux
+A level-1 auxiliary file: src/99-backMatter/lampiran.aux
+Database file #1: config/references.bib
+Warning--I didn't find a database entry for "latex:source_code_listings"
+Warning--I didn't find a database entry for "book:sample"
+You've used 1 entry,
+            1935 wiz_defined-function locations,
+            491 strings with 4237 characters,
+and the built_in function-call counts, 353 in all, are:
+= -- 31
+> -- 18
+< -- 0
++ -- 6
+- -- 6
+* -- 27
+:= -- 71
+add.period$ -- 3
+call.type$ -- 1
+change.case$ -- 8
+chr.to.int$ -- 1
+cite$ -- 1
+duplicate$ -- 13
+empty$ -- 21
+format.name$ -- 7
+if$ -- 63
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 1
+newline$ -- 8
+num.names$ -- 3
+pop$ -- 8
+preamble$ -- 1
+purify$ -- 8
+quote$ -- 0
+skip$ -- 11
+stack$ -- 0
+substring$ -- 12
+swap$ -- 1
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 6
+warning$ -- 0
+while$ -- 2
+width$ -- 0
+write$ -- 14
+(There were 2 warnings)

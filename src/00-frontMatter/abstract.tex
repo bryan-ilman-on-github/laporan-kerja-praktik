@@ -1,0 +1,36 @@
+\chapter*{ABSTRACT}
+\singlespacing
+
+\noindent \begin{tabular}{l l p{11.0cm}}
+	\ifx\blank\npmDua
+		Name&: & \penulisSatu \\
+		Study Program&: & \studyProgramSatu \\
+	\else
+		Writer 1 / Study Program&: & \penulisSatu~/ \studyProgramSatu\\
+		Writer 2 / Study Program&: & \penulisDua~/ \studyProgramDua\\
+	\fi
+	\ifx\blank\npmTiga\else
+		Writer 3 / Study Program&: & \penulisTiga~/ \studyProgramTiga\\
+	\fi
+	Title&: & \judulInggris \\
+	Counselor&: & \pembimbingSatu \\
+	\ifx\blank\pembimbingDua
+	\else
+		\ &\ & \pembimbingDua \\
+	\fi
+	\ifx\blank\pembimbingTiga
+	\else
+		\ &\ & \pembimbingTiga \\
+	\fi
+\end{tabular} \\
+
+\vspace*{0.5cm}
+
+\noindent Real-time data streaming is the process of continuously sending data from a source to a receiver, often used in applications that require quick responses and large data flows. Apache Kafka is the platform used to manage this process, where data is partitioned into topics to enable parallel processing by multiple consumers. This internship focused on researching the optimization of Apache Kafka topic partitioning, as outlined in the paper titled "Efficient Topic Partitioning of Apache Kafka for High-Reliability Real-Time Data Streaming Applications." The intern served as a Research Assistant at the Computer Systems Laboratory (CSL) of the Faculty of Computer Science, Universitas Indonesia, a laboratory focused on high-performance computing and big data management research. The primary task was to conduct end-to-end experiments, which in this context means observing the flow of data from producers to consumers to measure latency throughout the process. The methodology used in this internship included several key steps. Initially, the intern set up VMs on Google Cloud Platform (GCP) and installed all necessary dependencies for Kafka experiments. After that, experiments were run with one VM acting as a Kafka client and another as the Kafka cluster. The experiments focused on testing the BroMax and BroMin algorithms to monitor the behavior of topic partitioning. These algorithms were used to mathematically determine the optimal number of partitions to achieve maximum throughput. Additionally, resource monitoring was regularly conducted to track CPU, RAM, and disk space usage on the VMs. The experiments were then repeated on UI infrastructure (DGX and BMKGCS), including the exploration of using Docker-in-Docker to run experiments without root access. The Scrum methodology was applied in this project, with two-week sprint cycles. The results of this research help us understand the behavior of latency and throughput under various application constraints. \\
+
+\vspace*{0.2cm}
+
+\noindent Keywords: \\ \f{Fog Computing}, \f{Data Streaming}, \f{Topic Partitioning}, \f{Distributed Systems} \\
+
+\setstretch{1.4}
+\newpage

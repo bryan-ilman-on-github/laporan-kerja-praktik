@@ -1,0 +1,93 @@
+% Definisikan tipe dokumen sebagai report dengan satu kolom.
+\documentclass[12pt, a4paper, onecolumn, twoside, final]{report}
+\raggedbottom
+
+\usepackage[none]{hyphenat}
+% Memuat konfigurasi LaTeX khusus karya tulis di UI.
+\usepackage{_internals/uithesis}
+
+\UseRawInputEncoding
+% Memuat konfigurasi khusus untuk laporan yang sedang dibuat.
+\input{config/settings}
+% Memuat daftar pemenggalan suku kata dan istilah dalam Bahasa Indonesia.
+\include{_internals/hypeindonesia}
+\input{config/istilah}
+
+% Di sini adalah awal bagian penulisan laporan.
+\begin{document}
+
+% Sampul Laporan
+\include{_internals/sampul}
+\ifodd\thechapterpagecount\forceclearchapter\fi
+
+% Gunakan penomoran romawi untuk nomor halaman.
+\pagenumbering{roman}
+
+% load halaman judul dalam
+\strcompare{Kampus Merdeka}{\type}{} {
+	\addtocontents{toc}{\protect\addvspace{-10pt}}
+	\addChapter{Halaman Judul}
+	\include{_internals/judul_dalam}
+	\ifodd\thechapterpagecount\forceclearchapter\fi
+}
+
+% Setelah bagian ini, halaman dihitung sebagai halaman ke 2 atau 3.
+\strcompare{Laporan Kerja Praktik}{\type}{\setcounter{page}{2}}{
+    \strcompare{Kampus Merdeka}{\type}{\setcounter{page}{2}}{
+        \setcounter{page}{3}
+    }
+}
+
+% Lembar Pengesahan
+\strcompare{Laporan Kerja Praktik}{\type}{
+    \addChapter{Lembar Persetujuan Dosen Kerja Praktik}
+    \include{src/00-frontMatter/pengesahanKP}
+    \ifodd\thechapterpagecount\forceclearchapter\fi
+}
+
+% Untuk halaman pertama setiap bab mulai dari abstrak, tetap berikan mark universitas.
+\pagestyle{first-pages}
+\addChapter{Abstrak}
+\include{src/00-frontMatter/abstrak}
+\include{src/00-frontMatter/abstract}
+
+% Daftar Isi, Gambar, Tabel, Kode, dan Lampiran
+\addDefaultListPage{\tableofcontents}
+\addDefaultListPage{\listoffigures}
+\addDefaultListPage{\listoftables}
+\addCustomListPage{\listoflistings}{\lstlistlistingname}
+\addCustomListPage{\listofappendix}{\listofappendixname}
+
+\noCAPinToC % Kembalikan format \addcontentsline asli.
+\ifodd\thechapterpagecount\clearpage\else\forceclearchapter\fi
+
+% Gunakan penomoran Arab (1, 2, 3, ...) setelah bagian ini.
+\pagenumbering{arabic}
+\pagestyle{standard}
+\setoddevenheader
+
+\include{src/01-body/bab1}
+\clearchapter
+\include{src/01-body/bab2}
+\clearchapter
+\include{src/01-body/bab3}
+\clearchapter
+
+% Daftar Referensi
+\CAPinToC % Semua entri di Daftar Isi akan menggunakan huruf kapital mulai dari sini.
+\include{_internals/pustaka}
+\clearchapter
+\noCAPinToC % Kembalikan format \addcontentsline asli.
+
+% Lampiran
+\begin{appendix}
+    \newcounter{pagetemp}
+    \setcounter{pagetemp}{\thepage}
+    \include{_internals/markLampiran}
+    \clearchapter
+    \setcounter{page}{\thepagetemp}
+    \stepcounter{page}
+    \include{src/99-backMatter/lampiran}
+\end{appendix}
+
+\end{document}

@@ -1,0 +1,8 @@
+\begin{thebibliography}{}
+
+\bibitem[Raptis et~al., 2024]{latex:intro}
+Raptis, T.~P., Cicconetti, C., and Passarella, A. (2024).
+\newblock Efficient topic partitioning of apache kafka for high-reliability real-time data streaming applications.
+\newblock {\em Future Generation Computer Systems}.
+
+\end{thebibliography}
