@@ -1,21 +1,12 @@
-%-----------------------------------------------------------------------------%
 \chapter{\babDua}
 \label{bab:2}
-%-----------------------------------------------------------------------------%
-Untuk memulai penelitian, dibutuhkan kerangka berpikir yang sesuai untuk permasalahan yang ingin dipecahkan.
-Untuk membentuk kerangka berpikir yang sesuai, perlu dikaitkan dengan hasil studi literatur yang telah dilakukan.
-Oleh karena itu, pada bab ini, akan dijelaskan hasil studi literatur yang telah dilakukan yang telah dikaitan dengan kerangka kerja untuk penelitian ini.
+Pada bab ini dijlaskan secara rinci mengenai detil pekerjaan yang dilakukan oleh peserta kerja praktik selama program kerja praktik berlangsung. Latar belakang pekerjaan hingga hasil pekerjaan dijelaskan pada bab ini.
 
+\section{Latar Belakang Pekerjaan}
+\label{sec:latar-belakang}
 
-%-----------------------------------------------------------------------------%
-\section{Apa itu \latex?}
-\label{sec:latex}
-%-----------------------------------------------------------------------------%
-
-%-----------------------------------------------------------------------------%
 \subsection{\latex~Secara Singkat}
 \label{sec:latexBrief}
-%-----------------------------------------------------------------------------%
 Berdasarkan \cite{latex:intro}: \\
 \begin{tabular}{| p{13cm} |}
 	\hline
@@ -46,10 +37,8 @@ Jika ingin belajar hal-hal dasar mengenai \latex, silakan kunjungi:
 	\item \url{http://www.maths.tcd.ie/~dwilkins/LaTeXPrimer/}
 \end{itemize}
 
-%-----------------------------------------------------------------------------%
 \subsection{\latex~Kompiler dan IDE}
 \label{sec:latexCompiler}
-%-----------------------------------------------------------------------------%
 Untuk menggunakan \latex~(pada konteks hanya sebagai pengguna), tidak perlu banyak tahu mengenai hal-hal didalamnya.
 Dengan menggunakan \f{Integrated Development Environment} (IDE), penggunaan \latex~akan serupa dengan pembuatan dokumen secara visual, layaknya OpenOffice Writer atau Microsoft Word.
 Orang-orang yang menggunakan \latex~relatif lebih teliti dan terstruktur mengenai cara penulisan yang dia gunakan, karena \latex~memaksa untuk seperti itu.
@@ -71,15 +60,11 @@ Beberapa text editor atau IDE yang dapat digunakan adalah sebagai berikut:
 \end{itemize}
 
 
-%-----------------------------------------------------------------------------%
 \section{Panduan Pengunaan Dasar \latex}
 \label{sec:latexUsage}
-%-----------------------------------------------------------------------------%
 
-%-----------------------------------------------------------------------------%
 \subsection{Bold, Italic, dan Underline}
 \label{sec:latexBIU}
-%-----------------------------------------------------------------------------%
 Hal pertama yang mungkin ditanyakan adalah bagaimana membuat huruf tercetak tebal, miring, atau memiliki garis bawah.
 Pada Texmaker, Anda bisa melakukan hal ini seperti halnya saat mengubah dokumen dengan OO Writer.
 Namun jika tetap masih tertarik dengan cara lain, ini dia:
@@ -103,10 +88,8 @@ Namun jika tetap masih tertarik dengan cara lain, ini dia:
 
 Perintah \code{\bslash{}f} dan \code{\bslash{}bo} hanya dapat digunakan jika package \code{uithesis} digunakan.
 
-%-----------------------------------------------------------------------------%
 \subsection{Memasukan Gambar}
 \label{sec:latexImage}
-%-----------------------------------------------------------------------------%
 Setiap gambar dapat diberikan caption dan diberikan label. Label dapat digunakan untuk menunjuk gambar tertentu.
 Jika posisi gambar berubah, maka nomor gambar juga akan diubah secara otomatis.
 Begitu juga dengan seluruh referensi yang menunjuk pada gambar tersebut.
@@ -123,10 +106,8 @@ Harap diingat bahwa caption untuk gambar selalu terletak dibawah gambar.
 \end{figure}
 
 
-%-----------------------------------------------------------------------------%
 \section{Membuat Tabel}
 \label{sec:latexTable}
-%-----------------------------------------------------------------------------%
 Tabel pada Latex dapat dibuat dengan bantuan \textit{website} seperti \url{https://www.tablesgenerator.com/}.
 Dengan menggunakan \textit{website} ini, maka pembuatan tabel akan menjadi lebih mudah.
 \textit{User interface} dari \url{https://www.tablesgenerator.com/} dapat dilihat pada Gambar \ref{fig:tablesgenerator}.
@@ -169,16 +150,12 @@ Adapun untuk membuat tabel panjang yang bisa melebihi dari satu halaman, gunakan
 \hline
 & kol 1 & kol 2 \\
 \hline
-\endfirsthead % batas akhir header yang akan muncul di halaman pertama
 \caption[]{Contoh Tabel Panjang (sambungan)} \\
 \hline
 & kol 1 & kol 2 \\
 \hline
-\endhead % batas akhir header yang akan muncul di halaman berikutnya
 \hline
-\endfoot % batas akhir footer yang akan muncul di halaman berikutnya
 \hline
-\endlastfoot % batas akhir footer yang akan muncul di halaman terakhir
 baris 1  & 1 & 2 \\
 baris 2  & 3 & 4 \\
 baris 3  & 5 & 6 \\
@@ -205,9 +182,7 @@ Contoh-contoh ini bersumber dari \url{http://en.wikibooks.org/wiki/LaTeX/Tables}
 	\caption{An Example of Rows Spanning Multiple Columns}
 	\label{row.spanning}
 	\begin{tabular}{|l|l|*{6}{c|}}
-		\hline % create horizontal line
 		No & Name & \multicolumn{3}{|c|}{Week 1} & \multicolumn{3}{|c|}{Week 2} \\
-		\cline{3-8} % create line from 3rd column till 8th column
 		& & A & B & C & A & B & C\\
 		\hline
 		1 & Lala & 1 & 2 & 3 & 4 & 5 & 6\\
@@ -256,10 +231,8 @@ Contoh-contoh ini bersumber dari \url{http://en.wikibooks.org/wiki/LaTeX/Tables}
 \end{table}
 
 
-%-----------------------------------------------------------------------------%
 \section{Keterkaitan Teori Dengan Penelitian}
 \label{sec:keterkaitan}
-%-----------------------------------------------------------------------------%
 \todo{Ada baiknya setelah menjelaskan teori-teori, Anda menjelaskan apa kaitan teori tersebut dengan penelitian Anda.
 Hal ini tentunya membantu pembaca dalam memahami bahwa teori yang Anda paparkan memang penting untuk memahami penelitian Anda nantinya.}
 
