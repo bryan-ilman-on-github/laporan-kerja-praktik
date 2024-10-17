@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.20)  17 OCT 2024 00:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.20)  18 OCT 2024 00:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -953,7 +953,7 @@ LaTeX Info: Redefining \BHBI on input line 130.
 \openout2 = `_internals/sampul.aux'.
 
  (./_internals/sampul.tex
-<assets/pics/makara_kuning.png, id=191, 293.1753pt x 294.1389pt>
+<assets/pics/makara_kuning.png, id=195, 293.1753pt x 294.1389pt>
 File: assets/pics/makara_kuning.png Graphic file (type png)
 <use assets/pics/makara_kuning.png>
 Package pdftex.def Info: assets/pics/makara_kuning.png  used on input line 8.
@@ -982,7 +982,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 \openout2 = `_internals/judul_dalam.aux'.
 
 (./_internals/judul_dalam.tex
-<assets/pics/makara.png, id=206, 648.4225pt x 644.4075pt>
+<assets/pics/makara.png, id=210, 648.4225pt x 644.4075pt>
 File: assets/pics/makara.png Graphic file (type png)
 <use assets/pics/makara.png>
 Package pdftex.def Info: assets/pics/makara.png  used on input line 6.
@@ -1262,7 +1262,7 @@ l.19
 
 
 ]
-<assets/pics/pacil-org.png, id=406, 704.6325pt x 193.72375pt>
+<assets/pics/pacil-org.png, id=409, 704.6325pt x 193.72375pt>
 File: assets/pics/pacil-org.png Graphic file (type png)
 <use assets/pics/pacil-org.png>
 Package pdftex.def Info: assets/pics/pacil-org.png  used on input line 33.
@@ -1306,35 +1306,17 @@ l.70 \clearchapter
 
  (./src/01-body/bab2.tex
 BAB 2.
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 36.
-(c:/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
+
+Underfull \hbox (badness 2261) in paragraph at lines 8--9
+\OT1/ptm/m/it/12 Real-Time Data Stream-ing Ap-pli-ca-tions\OT1/ptm/m/n/12 . Tu-gas pelak-sana kerja prak-tik adalah
+ []
+
+
 
 [4
 
 
 ]
-Underfull \hbox (badness 2050) in paragraph at lines 42--45
-\OT1/ptm/m/it/12 En-vi-ron-ment \OT1/ptm/m/n/12 (IDE), peng-gu-naan L[]T[]X akan serupa de-ngan pem-bu-atan doku-men
- []
-
-
-Underfull \hbox (badness 1412) in paragraph at lines 46--51
-\OT1/ptm/m/n/12 Ubuntu bi-asanya telah menye-di-akan \OT1/ptm/m/it/12 pack-age \OT1/pcr/m/n/12 texlive \OT1/ptm/m/n/12 melalui \OT1/ptm/m/it/12 pack-age man-ager\OT1/ptm/m/n/12 .
- []
-
-
-Underfull \hbox (badness 4995) in paragraph at lines 57--60
-[]\OT1/ptm/m/n/12 Microsoft Vi-sual Stu-dio Code, de-ngan \OT1/ptm/m/it/12 plu-gin \OT1/ptm/m/n/12 La-TeX Work-shop ([]$\OT1/pcr/m/n/12 https ://
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--60
-\OT1/pcr/m/n/12 marketplace [] .visualstudio [] .com / items [] ?itemName = James [] -Yu [] .latex []
- []
-
-
 
 
 Package fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -1344,29 +1326,14 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
 [5]
-<assets/pics/creative_commons.png, id=445, 759.83875pt x 645.41125pt>
-File: assets/pics/creative_commons.png Graphic file (type png)
-<use assets/pics/creative_commons.png>
-Package pdftex.def Info: assets/pics/creative_commons.png  used on input line 103.
-(pdftex.def)             Requested size: 213.39568pt x 181.25557pt.
-
-
-
-Package fancyhdr Warning: \headheight is too small (0.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
-
-[6]
-Underfull \hbox (badness 5064) in paragraph at lines 111--114
+Underfull \hbox (badness 5064) in paragraph at lines 44--47
 []\OT1/ptm/m/n/12 Tabel pada La-tex da-pat dibuat de-ngan ban-tuan \OT1/ptm/m/it/12 web-site \OT1/ptm/m/n/12 seperti []$\OT1/pcr/m/n/12 https :// www []
  []
 
-<assets/pics/tablesgenerator-dot-com.png, id=453, 523.9575pt x 579.16376pt>
+<assets/pics/tablesgenerator-dot-com.png, id=460, 523.9575pt x 579.16376pt>
 File: assets/pics/tablesgenerator-dot-com.png Graphic file (type png)
 <use assets/pics/tablesgenerator-dot-com.png>
-Package pdftex.def Info: assets/pics/tablesgenerator-dot-com.png  used on input line 117.
+Package pdftex.def Info: assets/pics/tablesgenerator-dot-com.png  used on input line 50.
 (pdftex.def)             Requested size: 213.39568pt x 235.87679pt.
 
 
@@ -1377,13 +1344,23 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[7 <./assets/pics/creative_commons.png (PNG copy)> <./assets/pics/tablesgenerator-dot-com.png>]
-LaTeX Font Info:    Trying to load font information for OMS+pcr on input line 145.
+[6]
+LaTeX Font Info:    Trying to load font information for OMS+pcr on input line 78.
  (c:/texlive/2024/texmf-dist/tex/latex/psnfss/omspcr.fd
 File: omspcr.fd 
 )
 LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 145.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 78.
+
+
+
+Package fancyhdr Warning: \headheight is too small (0.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
+
+[7 <./assets/pics/tablesgenerator-dot-com.png>]
 
 
 Package fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -1393,15 +1370,20 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
 [8]
-Overfull \hbox (12.79999pt too wide) in paragraph at lines 237--238
+Overfull \hbox (12.79999pt too wide) in paragraph at lines 170--171
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 237--238
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
 
  []
 
+<assets/pics/research_concept_map.png, id=480, 708.6475pt x 251.94125pt>
+File: assets/pics/research_concept_map.png Graphic file (type png)
+<use assets/pics/research_concept_map.png>
+Package pdftex.def Info: assets/pics/research_concept_map.png  used on input line 174.
+(pdftex.def)             Requested size: 426.79135pt x 151.73871pt.
 
 
 
@@ -1411,19 +1393,13 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[9]
-<assets/pics/research_concept_map.png, id=469, 708.6475pt x 251.94125pt>
-File: assets/pics/research_concept_map.png Graphic file (type png)
-<use assets/pics/research_concept_map.png>
-Package pdftex.def Info: assets/pics/research_concept_map.png  used on input line 241.
-(pdftex.def)             Requested size: 426.79135pt x 151.73871pt.
-)
-Overfull \hbox (15.08002pt too wide) in paragraph at lines 246--71
+[9])
+Overfull \hbox (15.08002pt too wide) in paragraph at lines 179--71
  []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--71
+Underfull \hbox (badness 10000) in paragraph at lines 179--71
 
  []
 
@@ -1468,6 +1444,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--12
 
 
 ]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 95.
+ (c:/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
 
 LaTeX Warning: there is no bold Symbol font on input line 103.
 
@@ -1660,7 +1640,11 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[19] (c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
+[19]
+
+LaTeX Warning: Reference `fig:testGambar' on page 20 undefined on input line 323.
+
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/05/25 1.10b listings language file
 ) (c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang2.sty
 File: lstlang2.sty 2024/05/25 1.10b listings language file
@@ -1690,8 +1674,28 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
 [20]
-Overfull \hbox (173.21475pt too wide) in paragraph at lines 3--4
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+Overfull \hbox (365.2167pt too wide) in paragraph at lines 5--6
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (230.81534pt too wide) in paragraph at lines 12--13
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (110.81412pt too wide) in paragraph at lines 16--17
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (158.8146pt too wide) in paragraph at lines 25--26
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (67.61368pt too wide) in paragraph at lines 36--37
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
 )
@@ -1711,11 +1715,6 @@ Package natbib Warning: Citation `book:sample' on page 22 undefined on input lin
 Package natbib Warning: Citation `book:sample' on page 22 undefined on input line 381.
 
 
-Underfull \hbox (badness 2035) in paragraph at lines 403--404
-[]\OT1/ptm/m/n/12 Hilangkan tanda ko-men-tar (\OT1/ptm/m/it/12 un-com-ment\OT1/ptm/m/n/12 ) pada bagian kon-fig-urasi for-mat yang
- []
-
-
 
 
 Package fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -1725,18 +1724,13 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
 [22]
+Underfull \hbox (badness 2035) in paragraph at lines 403--404
+[]\OT1/ptm/m/n/12 Hilangkan tanda ko-men-tar (\OT1/ptm/m/it/12 un-com-ment\OT1/ptm/m/n/12 ) pada bagian kon-fig-urasi for-mat yang
+ []
+
+
 Underfull \hbox (badness 1082) in paragraph at lines 416--419
 []\OT1/ptm/m/n/12 Jika muncul pe-san er-ror seperti \OT1/pcr/m/n/12 [nama-format].bst not found\OT1/ptm/m/n/12 , itu tan-danya
- []
-
-
-Underfull \hbox (badness 4060) in paragraph at lines 438--443
-[]\OT1/ptm/m/n/12 Terkadang ada ke-bu-tuhan un-tuk mema-sukan kata-kata ter-tentu kedalam Daf-tar
- []
-
-
-Underfull \hbox (badness 1521) in paragraph at lines 438--443
-\OT1/ptm/m/n/12 Isi. Per-in-tah $\OMS/pzccm/m/n/12 n$\OT1/pcr/m/n/12 addChapter \OT1/ptm/m/n/12 da-pat di-gu-na-kan un-tuk judul bab dalam Daf-tar Isi.
  []
 
 
@@ -1749,11 +1743,30 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
 [23]
+Underfull \hbox (badness 4060) in paragraph at lines 438--443
+[]\OT1/ptm/m/n/12 Terkadang ada ke-bu-tuhan un-tuk mema-sukan kata-kata ter-tentu kedalam Daf-tar
+ []
+
+
+Underfull \hbox (badness 1521) in paragraph at lines 438--443
+\OT1/ptm/m/n/12 Isi. Per-in-tah $\OMS/pzccm/m/n/12 n$\OT1/pcr/m/n/12 addChapter \OT1/ptm/m/n/12 da-pat di-gu-na-kan un-tuk judul bab dalam Daf-tar Isi.
+ []
+
+
 Underfull \hbox (badness 4832) in paragraph at lines 458--459
 []$\OMS/pzccm/m/n/12 n$\OT1/pcr/m/n/12 listof....name\OT1/ptm/m/n/12 : Nama daf-tar isi un-tuk je-nis ob-jek terse-but, con-toh:
  []
 
 
+
+
+Package fancyhdr Warning: \headheight is too small (0.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
+
+[24]
 Underfull \hbox (badness 2368) in paragraph at lines 462--463
 []$\OMS/pzccm/m/n/12 n$\OT1/pcr/m/n/12 captionsource....\OT1/ptm/m/n/12 : Cap-tion de-ngan sum-ber un-tuk je-nis ob-jek terse-but,
  []
@@ -1779,15 +1792,6 @@ Underfull \hbox (badness 1728) in paragraph at lines 469--470
  []
 
 
-
-
-Package fancyhdr Warning: \headheight is too small (0.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
-
-[24]
 Underfull \hbox (badness 3439) in paragraph at lines 473--475
 []\OT1/ptm/m/n/12 Silakan defin-isikan sendiri kon-vensi la-bel dan \OT1/ptm/m/it/12 cross-reference \OT1/ptm/m/n/12 yang menu-rut
  []
@@ -1797,7 +1801,7 @@ Underfull \hbox (badness 3168) in paragraph at lines 473--475
 \OT1/ptm/m/n/12 Anda co-cok un-tuk je-nis ob-jek terse-but. Misal: $\OMS/pzccm/m/n/12 n$\OT1/pcr/m/n/12 label\OMS/cmsy/m/n/12 f\OT1/pcr/m/n/12 rule:....\OMS/cmsy/m/n/12 g \OT1/ptm/m/n/12 dan
  []
 
-<assets/pdfs/include.pdf, id=605, 597.51233pt x 845.0471pt>
+<assets/pdfs/include.pdf, id=646, 597.51233pt x 845.0471pt>
 File: assets/pdfs/include.pdf Graphic file (type pdf)
 <use assets/pdfs/include.pdf>
 Package pdftex.def Info: assets/pdfs/include.pdf  used on input line 486.
@@ -1806,7 +1810,7 @@ File: assets/pdfs/include.pdf Graphic file (type pdf)
 <use assets/pdfs/include.pdf>
 Package pdftex.def Info: assets/pdfs/include.pdf  used on input line 486.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
-<assets/pdfs/include.pdf, id=608, page=1, 597.51233pt x 845.0471pt>
+<assets/pdfs/include.pdf, id=649, page=1, 597.51233pt x 845.0471pt>
 File: assets/pdfs/include.pdf Graphic file (type pdf)
 <use assets/pdfs/include.pdf, page 1>
 Package pdftex.def Info: assets/pdfs/include.pdf , page1 used on input line 486.
@@ -1825,6 +1829,15 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
 [25]
+
+
+Package fancyhdr Warning: \headheight is too small (0.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
+
+[26]
 File: assets/pdfs/include.pdf Graphic file (type pdf)
 <use assets/pdfs/include.pdf, page 1>
 Package pdftex.def Info: assets/pdfs/include.pdf , page1 used on input line 486.
@@ -1846,7 +1859,7 @@ File: assets/pdfs/include.pdf Graphic file (type pdf)
 <use assets/pdfs/include.pdf, page 1>
 Package pdftex.def Info: assets/pdfs/include.pdf , page1 used on input line 486.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
-[26
+[27
 
  <./assets/pdfs/include.pdf>]
 File: assets/pdfs/include.pdf Graphic file (type pdf)
@@ -1874,7 +1887,7 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[27]
+[28]
 File: assets/pdfs/include.pdf Graphic file (type pdf)
 <use assets/pdfs/include.pdf, page 1>
 Package pdftex.def Info: assets/pdfs/include.pdf , page1 used on input line 491.
@@ -1889,7 +1902,7 @@ File: assets/pdfs/include.pdf Graphic file (type pdf)
 <use assets/pdfs/include.pdf, page 1>
 Package pdftex.def Info: assets/pdfs/include.pdf , page1 used on input line 491.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
-[28
+[29
 
 ]
 Underfull \hbox (badness 3281) in paragraph at lines 506--509
@@ -1930,7 +1943,7 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[29]
+[30]
 Underfull \hbox (badness 2042) in paragraph at lines 528--532
 \OT1/ptm/m/n/12 Digunakan un-tuk men-de-fi-ni-si-kan ulang per-in-tah yang su-dah ada. Con-tohnya
  []
@@ -1959,7 +1972,7 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[30]
+[31]
 Underfull \hbox (badness 1546) in paragraph at lines 561--568
 []\OT1/ptm/m/n/12 Peraturan la-po-ran tu-gas akhir di Uni-ver-si-tas In-done-sia tahun 2017 men-syaratkan
  []
@@ -1998,18 +2011,7 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[31]
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.31}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.74 \clearchapter
-                   [31
-
-
-
-]
+[32]
 \openout2 = `_internals/pustaka.aux'.
 
  (./_internals/pustaka.tex (./laporan.bbl
@@ -2019,17 +2021,20 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 ))
 
-[32
+[33
+
+
+
 
 
 ]
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.32}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{page.33}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.79 \clearchapter
-                   [32
+                   [33
 
 
 
@@ -2079,7 +2084,7 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[34
+[35
 
 ]
 
@@ -2090,7 +2095,7 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[35]
+[36]
 
 
 Package fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -2099,7 +2104,7 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[36])
+[37])
 Overfull \hbox (12.79999pt too wide) in paragraph at lines 100--90
 [][]
  []
@@ -2118,7 +2123,7 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[37
+[38
 
 ]
 
@@ -2129,22 +2134,35 @@ Package natbib Warning: There were undefined citations.
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
  ***********
-Package rerunfilecheck Info: File `laporan.out' has not changed.
-(rerunfilecheck)             Checksum: 3764CF615AC69E3C039E2E3E7F42BBB2;9722.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `laporan.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `laporan.out':
+(rerunfilecheck)             Before: AD3590D6B5C39DE1C03BBCFEA4A77BDF;9732
+(rerunfilecheck)             After:  FA2E29914D39E27E98F197916F2AFDAB;9913.
  ) 
 Here is how much of TeX's memory you used:
- 29088 strings out of 473579
- 522623 string characters out of 5732263
- 1168417 words of memory out of 5000000
- 51002 multiletter control sequences out of 15000+600000
- 620049 words of font info for 168 fonts, out of 8000000 for 9000
+ 29291 strings out of 473579
+ 525174 string characters out of 5732263
+ 1284204 words of memory out of 5000000
+ 51176 multiletter control sequences out of 15000+600000
+ 618942 words of font info for 167 fonts, out of 8000000 for 9000
  1274 hyphenation exceptions out of 8191
  114i,17n,121p,2291b,2925s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on laporan.pdf (56 pages, 475199 bytes).
+Output written on laporan.pdf (56 pages, 441268 bytes).
 PDF statistics:
- 791 PDF objects out of 1000 (max. 8388607)
- 681 compressed objects within 7 object streams
- 158 named destinations out of 1000 (max. 500000)
- 441 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 840 PDF objects out of 1000 (max. 8388607)
+ 730 compressed objects within 8 object streams
+ 189 named destinations out of 1000 (max. 500000)
+ 444 words of extra memory for PDF output out of 10000 (max. 10000000)
 

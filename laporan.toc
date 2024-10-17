@@ -22,13 +22,15 @@
 \contentsline {subsection}{\numberline {1.2.2}Posisi Penempatan Pelaksana Kerja Praktik dalam Struktur Organisasi}{2}{subsection.1.2.2}%
 \contentsline {chapter}{\numberline {2}ISI}{4}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Latar Belakang Pekerjaan}{4}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}\LaTeX ~Secara Singkat}{4}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}\LaTeX ~Kompiler dan IDE}{5}{subsection.2.1.2}%
-\contentsline {section}{\numberline {2.2}Panduan Pengunaan Dasar \LaTeX }{6}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Bold, Italic, dan Underline}{6}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Memasukan Gambar}{6}{subsection.2.2.2}%
-\contentsline {section}{\numberline {2.3}Membuat Tabel}{7}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Keterkaitan Teori Dengan Penelitian}{10}{section.2.4}%
+\contentsline {section}{\numberline {2.2}Deskripsi Pekerjaan}{4}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Tinjauan Pustaka}{5}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Apache Kafka}{5}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Docker Containerization}{5}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Apache Zookeeper}{6}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Distributed System}{6}{subsection.2.3.4}%
+\contentsline {section}{\numberline {2.4}Metodologi Pekerjaan}{6}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Membuat Tabel}{6}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Keterkaitan Teori Dengan Penelitian}{9}{section.2.6}%
 \contentsline {chapter}{\numberline {3}PENUTUP}{11}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Membuat Persamaan Matematis}{11}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Satu Persamaan}{11}{subsection.3.1.1}%
@@ -43,13 +45,13 @@
 \contentsline {section}{\numberline {3.7}Menggunakan BibTeX}{20}{section.3.7}%
 \contentsline {subsection}{\numberline {3.7.1}Menambahkan Referensi}{20}{subsection.3.7.1}%
 \contentsline {subsection}{\numberline {3.7.2}Melakukan Sitasi pada Konten Tugas Akhir}{22}{subsection.3.7.2}%
-\contentsline {subsection}{\numberline {3.7.3}Mengubah Format Referensi/Sitasi}{22}{subsection.3.7.3}%
-\contentsline {section}{\numberline {3.8}Daftar Isi atau Daftar Konten Lainnya}{23}{section.3.8}%
-\contentsline {subsection}{\numberline {3.8.1}Menambahkan Konten ke Daftar Isi/Lampiran Secara Manual}{23}{subsection.3.8.1}%
+\contentsline {subsection}{\numberline {3.7.3}Mengubah Format Referensi/Sitasi}{23}{subsection.3.7.3}%
+\contentsline {section}{\numberline {3.8}Daftar Isi atau Daftar Konten Lainnya}{24}{section.3.8}%
+\contentsline {subsection}{\numberline {3.8.1}Menambahkan Konten ke Daftar Isi/Lampiran Secara Manual}{24}{subsection.3.8.1}%
 \contentsline {subsection}{\numberline {3.8.2}Menambahkan Daftar Konten \textit {Custom}}{24}{subsection.3.8.2}%
 \contentsline {section}{\numberline {3.9}Memasukan PDF}{25}{section.3.9}%
-\contentsline {section}{\numberline {3.10}Membuat Variabel atau Perintah Baru}{29}{section.3.10}%
-\contentsline {section}{\numberline {3.11}Pengaturan \textit {Header} dan \textit {Footer}}{30}{section.3.11}%
-\contentsline {subsection}{\numberline {3.11.1}Konfigurasi Satu Halaman per Lembar}{31}{subsection.3.11.1}%
-\contentsline {subsection}{\numberline {3.11.2}Konfigurasi untuk Submisi ke UI-ana}{31}{subsection.3.11.2}%
-\contentsline {chapter}{\uppercase {Daftar Referensi}}{32}{section*.19}%
+\contentsline {section}{\numberline {3.10}Membuat Variabel atau Perintah Baru}{30}{section.3.10}%
+\contentsline {section}{\numberline {3.11}Pengaturan \textit {Header} dan \textit {Footer}}{31}{section.3.11}%
+\contentsline {subsection}{\numberline {3.11.1}Konfigurasi Satu Halaman per Lembar}{32}{subsection.3.11.1}%
+\contentsline {subsection}{\numberline {3.11.2}Konfigurasi untuk Submisi ke UI-ana}{32}{subsection.3.11.2}%
+\contentsline {chapter}{\uppercase {Daftar Referensi}}{33}{section*.18}%

@@ -1,6 +1,21 @@
 \begin{thebibliography}{}
 
-\bibitem[Raptis et~al., 2024]{latex:intro}
+\bibitem[Kul et~al., 2024]{its:docker}
+Kul, S., Kumcu, S., and Sayar, A. (2024).
+\newblock Docker container-based framework of apache kafka node ecosystem: Vehicle tracking system by license plate recognition on surveillance camera feeds.
+\newblock {\em International Journal of Intelligent Transportation Systems Research}.
+
+\bibitem[Ledmi et~al., 2018]{ieee:distributed}
+Ledmi, A., Bendjenna, H., and Hemam, S.~M. (2018).
+\newblock Fault tolerance in distributed systems: A survey.
+\newblock {\em 2018 3rd International Conference on Pattern Analysis and Intelligent Systems (PAIS)}.
+
+\bibitem[Pham et~al., 2014]{comp:zookeeper}
+Pham, C.~M., Dogaru, V., Wagle, R., Venkatramani, C., Kalbarczyk, Z., and Iyer, R. (2014).
+\newblock An evaluation of zookeeper for high availability in system s.
+\newblock {\em ICPE '14: Proceedings of the 5th ACM/SPEC international conference on Performance engineering}.
+
+\bibitem[Raptis et~al., 2024]{elsevier:kafka}
 Raptis, T.~P., Cicconetti, C., and Passarella, A. (2024).
 \newblock Efficient topic partitioning of apache kafka for high-reliability real-time data streaming applications.
 \newblock {\em Future Generation Computer Systems}.
