@@ -494,11 +494,7 @@ OUTPUT laporan.lot
 INPUT ./laporan.lol
 INPUT ./laporan.lol
 INPUT laporan.lol
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/pslatex/pcrr7tn.tfm
 OUTPUT laporan.lol
-INPUT c:/texlive/2024/texmf-dist/fonts/vf/public/pslatex/pcrr7tn.vf
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/pslatex/pcrr8rn.tfm
 INPUT ./laporan.lox
 INPUT ./laporan.lox
 INPUT laporan.lox
@@ -525,190 +521,17 @@ OUTPUT src/01-body/bab2.aux
 INPUT ./src/01-body/bab2.tex
 INPUT ./src/01-body/bab2.tex
 INPUT src/01-body/bab2.tex
-INPUT ./assets/pics/tablesgenerator-dot-com.png
-INPUT ./assets/pics/tablesgenerator-dot-com.png
-INPUT ./assets/pics/tablesgenerator-dot-com.png
-INPUT ./assets/pics/tablesgenerator-dot-com.png
-INPUT ./assets/pics/tablesgenerator-dot-com.png
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm
-INPUT c:/texlive/2024/texmf-dist/tex/latex/psnfss/omspcr.fd
-INPUT c:/texlive/2024/texmf-dist/tex/latex/psnfss/omspcr.fd
-INPUT c:/texlive/2024/texmf-dist/tex/latex/psnfss/omspcr.fd
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmri7t.vf
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/vf/adobe/times/zpzccmry.vf
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/zapfchan/pzcmi8r.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
-INPUT ./assets/pics/research_concept_map.png
-INPUT ./assets/pics/research_concept_map.png
-INPUT ./assets/pics/research_concept_map.png
-INPUT ./assets/pics/research_concept_map.png
-INPUT ./assets/pics/research_concept_map.png
+INPUT c:/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+INPUT c:/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+INPUT c:/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmr8c.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmr8c.vf
 INPUT ./src/01-body/bab3.tex
 INPUT ./src/01-body/bab3.tex
 OUTPUT src/01-body/bab3.aux
 INPUT ./src/01-body/bab3.tex
 INPUT ./src/01-body/bab3.tex
 INPUT src/01-body/bab3.tex
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/zptmcmr.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/zptmcmrm.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/zpzccmry.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/zpsycmrv.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib5.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/vf/adobe/times/zptmcmrm.vf
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/vf/adobe/times/zptmcmr.vf
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/vf/adobe/times/zptmcmr.vf
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/vf/adobe/times/zpsycmrv.vf
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex9.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/vf/adobe/times/zpzccmry.vf
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/zapfchan/pzcmi8r.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/vf/adobe/times/zptmcmrm.vf
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/vf/adobe/times/zptmcmr.vf
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT c:/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-INPUT c:/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-INPUT c:/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmr8c.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmbi7t.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/vf/adobe/times/zptmcmrm.vf
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmr8c.vf
-INPUT c:/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmbi7t.vf
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmbi8r.tfm
-INPUT c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT ./assets/codes/3-sample.java
-INPUT ./assets/codes/3-sample.java
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/pslatex/pcrr7tn.tfm
-INPUT assets/codes/3-sample.java
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
-INPUT c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT ./assets/codes/3-sample.py
-INPUT ./assets/codes/3-sample.py
-INPUT assets/codes/3-sample.py
-INPUT c:/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/vf/public/pslatex/pcrr7tn.vf
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/pslatex/pcrr8rn.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/pslatex/pcrr7tn.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/zptmcmr.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/zptmcmr.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/zptmcmr.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/zptmcmrm.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/zptmcmrm.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/zptmcmrm.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/zpzccmry.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/zpzccmry.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/zpzccmry.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/zpsycmrv.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/zpsycmrv.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/zpsycmrv.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx6.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib6.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/vf/public/pslatex/pcrr7tn.vf
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/pslatex/pcrr8rn.tfm
-INPUT c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang2.sty
-INPUT c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang2.sty
-INPUT c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang2.sty
-INPUT c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang3.sty
-INPUT c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang3.sty
-INPUT c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang3.sty
-INPUT c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang2.sty
-INPUT c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang2.sty
-INPUT c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang2.sty
-INPUT c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang3.sty
-INPUT c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang3.sty
-INPUT c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang3.sty
-INPUT c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang2.sty
-INPUT c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang2.sty
-INPUT c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang2.sty
-INPUT c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang3.sty
-INPUT c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang3.sty
-INPUT c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang3.sty
-INPUT c:/texlive/2024/texmf-dist/tex/latex/listings/lstmisc.sty
-INPUT c:/texlive/2024/texmf-dist/tex/latex/listings/lstmisc.sty
-INPUT c:/texlive/2024/texmf-dist/tex/latex/listings/lstmisc.sty
-INPUT ./config/references.bib
-INPUT ./config/references.bib
-INPUT config/references.bib
-INPUT ./assets/pdfs/include.pdf
-INPUT ./assets/pdfs/include.pdf
-INPUT ./assets/pdfs/include.pdf
-INPUT ./assets/pdfs/include.pdf
-INPUT ./assets/pdfs/include.pdf
-INPUT ./assets/pdfs/include.pdf
-INPUT ./assets/pdfs/include.pdf
-INPUT ./assets/pdfs/include.pdf
-INPUT ./assets/pdfs/include.pdf
-INPUT ./assets/pdfs/include.pdf
-INPUT ./assets/pdfs/include.pdf
-INPUT ./assets/pdfs/include.pdf
-INPUT ./assets/pdfs/include.pdf
-INPUT ./assets/pdfs/include.pdf
-INPUT ./assets/pdfs/include.pdf
-INPUT ./assets/pdfs/include.pdf
-INPUT ./assets/pdfs/include.pdf
-INPUT ./assets/pdfs/include.pdf
-INPUT ./assets/pdfs/include.pdf
-INPUT ./assets/pdfs/include.pdf
-INPUT ./assets/pdfs/include.pdf
-INPUT ./assets/pdfs/include.pdf
-INPUT ./assets/pdfs/include.pdf
-INPUT ./assets/pdfs/include.pdf
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/courier/pcrb7t.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/vf/adobe/courier/pcrb7t.vf
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/courier/pcrb8r.tfm
 INPUT ./_internals/pustaka.tex
 INPUT ./_internals/pustaka.tex
 OUTPUT _internals/pustaka.aux
@@ -733,6 +556,131 @@ OUTPUT src/99-backMatter/lampiran.aux
 INPUT ./src/99-backMatter/lampiran.tex
 INPUT ./src/99-backMatter/lampiran.tex
 INPUT src/99-backMatter/lampiran.tex
+INPUT ./assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0001.jpg
+INPUT ./assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0001.jpg
+INPUT ./assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0001.jpg
+INPUT ./assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0001.jpg
+INPUT ./assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0001.jpg
+INPUT ./assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0002.jpg
+INPUT ./assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0002.jpg
+INPUT ./assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0002.jpg
+INPUT ./assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0002.jpg
+INPUT ./assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0002.jpg
+INPUT ./assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0003.jpg
+INPUT ./assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0003.jpg
+INPUT ./assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0003.jpg
+INPUT ./assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0003.jpg
+INPUT ./assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0003.jpg
+INPUT ./assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0004.jpg
+INPUT ./assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0004.jpg
+INPUT ./assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0004.jpg
+INPUT ./assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0004.jpg
+INPUT ./assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0004.jpg
+INPUT ./assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0005.jpg
+INPUT ./assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0005.jpg
+INPUT ./assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0005.jpg
+INPUT ./assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0005.jpg
+INPUT ./assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0005.jpg
+INPUT ./assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0006.jpg
+INPUT ./assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0006.jpg
+INPUT ./assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0006.jpg
+INPUT ./assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0006.jpg
+INPUT ./assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0006.jpg
+INPUT ./assets/pics/Log-1-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-1-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-1-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-1-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-1-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-1-CSL-Bryan Raihan Ilman-0002.jpg
+INPUT ./assets/pics/Log-1-CSL-Bryan Raihan Ilman-0002.jpg
+INPUT ./assets/pics/Log-1-CSL-Bryan Raihan Ilman-0002.jpg
+INPUT ./assets/pics/Log-1-CSL-Bryan Raihan Ilman-0002.jpg
+INPUT ./assets/pics/Log-1-CSL-Bryan Raihan Ilman-0002.jpg
+INPUT ./assets/pics/Log-2-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-2-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-2-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-2-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-2-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-2-CSL-Bryan Raihan Ilman-0002.jpg
+INPUT ./assets/pics/Log-2-CSL-Bryan Raihan Ilman-0002.jpg
+INPUT ./assets/pics/Log-2-CSL-Bryan Raihan Ilman-0002.jpg
+INPUT ./assets/pics/Log-2-CSL-Bryan Raihan Ilman-0002.jpg
+INPUT ./assets/pics/Log-2-CSL-Bryan Raihan Ilman-0002.jpg
+INPUT ./assets/pics/Log-3-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-3-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-3-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-3-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-3-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-3-CSL-Bryan Raihan Ilman-0002.jpg
+INPUT ./assets/pics/Log-3-CSL-Bryan Raihan Ilman-0002.jpg
+INPUT ./assets/pics/Log-3-CSL-Bryan Raihan Ilman-0002.jpg
+INPUT ./assets/pics/Log-3-CSL-Bryan Raihan Ilman-0002.jpg
+INPUT ./assets/pics/Log-3-CSL-Bryan Raihan Ilman-0002.jpg
+INPUT ./assets/pics/Log-4-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-4-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-4-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-4-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-4-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-4-CSL-Bryan Raihan Ilman-0002.jpg
+INPUT ./assets/pics/Log-4-CSL-Bryan Raihan Ilman-0002.jpg
+INPUT ./assets/pics/Log-4-CSL-Bryan Raihan Ilman-0002.jpg
+INPUT ./assets/pics/Log-4-CSL-Bryan Raihan Ilman-0002.jpg
+INPUT ./assets/pics/Log-4-CSL-Bryan Raihan Ilman-0002.jpg
+INPUT ./assets/pics/Log-5-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-5-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-5-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-5-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-5-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-5-CSL-Bryan Raihan Ilman-0002.jpg
+INPUT ./assets/pics/Log-5-CSL-Bryan Raihan Ilman-0002.jpg
+INPUT ./assets/pics/Log-5-CSL-Bryan Raihan Ilman-0002.jpg
+INPUT ./assets/pics/Log-5-CSL-Bryan Raihan Ilman-0002.jpg
+INPUT ./assets/pics/Log-5-CSL-Bryan Raihan Ilman-0002.jpg
+INPUT ./assets/pics/Log-6-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-6-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-6-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-6-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-6-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-7-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-7-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-7-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-7-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-7-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-7-CSL-Bryan Raihan Ilman-0002.jpg
+INPUT ./assets/pics/Log-7-CSL-Bryan Raihan Ilman-0002.jpg
+INPUT ./assets/pics/Log-7-CSL-Bryan Raihan Ilman-0002.jpg
+INPUT ./assets/pics/Log-7-CSL-Bryan Raihan Ilman-0002.jpg
+INPUT ./assets/pics/Log-7-CSL-Bryan Raihan Ilman-0002.jpg
+INPUT ./assets/pics/Log-8-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-8-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-8-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-8-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-8-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-9-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-9-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-9-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-9-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-9-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-9-CSL-Bryan Raihan Ilman-0002.jpg
+INPUT ./assets/pics/Log-9-CSL-Bryan Raihan Ilman-0002.jpg
+INPUT ./assets/pics/Log-9-CSL-Bryan Raihan Ilman-0002.jpg
+INPUT ./assets/pics/Log-9-CSL-Bryan Raihan Ilman-0002.jpg
+INPUT ./assets/pics/Log-9-CSL-Bryan Raihan Ilman-0002.jpg
+INPUT ./assets/pics/Log-10-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-10-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-10-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-10-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-10-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-11-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-11-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-11-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-11-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-11-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-12-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-12-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-12-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-12-CSL-Bryan Raihan Ilman-0001.jpg
+INPUT ./assets/pics/Log-12-CSL-Bryan Raihan Ilman-0001.jpg
 INPUT laporan.aux
 INPUT ./_internals/sampul.aux
 INPUT ./_internals/sampul.aux
@@ -769,15 +717,7 @@ INPUT ./src/99-backMatter/lampiran.aux
 INPUT src/99-backMatter/lampiran.aux
 INPUT ./laporan.out
 INPUT ./laporan.out
-INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
-INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb
-INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
-INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
-INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-INPUT c:/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb
-INPUT c:/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb
-INPUT c:/texlive/2024/texmf-dist/fonts/type1/urw/symbol/usyr.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb

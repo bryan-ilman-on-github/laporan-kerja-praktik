@@ -14,11 +14,9 @@ A level-1 auxiliary file: _internals/pustaka.aux
 A level-1 auxiliary file: _internals/markLampiran.aux
 A level-1 auxiliary file: src/99-backMatter/lampiran.aux
 Database file #1: config/references.bib
-Warning--I didn't find a database entry for "latex:source_code_listings"
-Warning--I didn't find a database entry for "book:sample"
 You've used 4 entries,
             1935 wiz_defined-function locations,
-            507 strings with 5046 characters,
+            505 strings with 5009 characters,
 and the built_in function-call counts, 1458 in all, are:
 = -- 130
 > -- 87
@@ -57,4 +55,3 @@ warning$ -- 0
 while$ -- 8
 width$ -- 0
 write$ -- 50
-(There were 2 warnings)

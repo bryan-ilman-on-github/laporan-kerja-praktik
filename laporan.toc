@@ -17,41 +17,37 @@
 \contentsline {chapter}{\uppercase {\uppercase {Daftar Lampiran}}}{ix}{section*.10}%
 \contentsline {chapter}{\numberline {1}PENDAHULUAN}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Proses Pencarian Kerja Praktik}{1}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Tempat Kerja Praktik}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.2}Tempat Kerja Praktik}{1}{section.1.2}%
 \contentsline {subsection}{\numberline {1.2.1}Profil Tempat Kerja Praktik}{2}{subsection.1.2.1}%
 \contentsline {subsection}{\numberline {1.2.2}Posisi Penempatan Pelaksana Kerja Praktik dalam Struktur Organisasi}{2}{subsection.1.2.2}%
-\contentsline {chapter}{\numberline {2}ISI}{4}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Latar Belakang Pekerjaan}{4}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Deskripsi Pekerjaan}{4}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Tinjauan Pustaka}{5}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Apache Kafka}{5}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Docker Containerization}{5}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Apache Zookeeper}{6}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Distributed System}{6}{subsection.2.3.4}%
-\contentsline {section}{\numberline {2.4}Metodologi Pekerjaan}{6}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Membuat Tabel}{6}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Keterkaitan Teori Dengan Penelitian}{9}{section.2.6}%
-\contentsline {chapter}{\numberline {3}PENUTUP}{11}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Membuat Persamaan Matematis}{11}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Satu Persamaan}{11}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Lebih dari Satu Persamaan}{12}{subsection.3.1.2}%
-\contentsline {section}{\numberline {3.2}Mengubah Tampilan Teks}{12}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Menambahkan Kode Program}{13}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Memberikan Catatan}{14}{section.3.4}%
-\contentsline {section}{\numberline {3.5}\textit {Layoutting} Tingkat Lanjut}{14}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Menambahkan Tabel/Gambar Panjang secara Lanskap}{14}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}\textit {Alignment} dan \textit {Word Wrapping} pada Tabel}{18}{subsection.3.5.2}%
-\contentsline {section}{\numberline {3.6}Melakukan \textit {Cross-Reference} ke Suatu Bagian dalam Laporan}{19}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Menggunakan BibTeX}{20}{section.3.7}%
-\contentsline {subsection}{\numberline {3.7.1}Menambahkan Referensi}{20}{subsection.3.7.1}%
-\contentsline {subsection}{\numberline {3.7.2}Melakukan Sitasi pada Konten Tugas Akhir}{22}{subsection.3.7.2}%
-\contentsline {subsection}{\numberline {3.7.3}Mengubah Format Referensi/Sitasi}{23}{subsection.3.7.3}%
-\contentsline {section}{\numberline {3.8}Daftar Isi atau Daftar Konten Lainnya}{24}{section.3.8}%
-\contentsline {subsection}{\numberline {3.8.1}Menambahkan Konten ke Daftar Isi/Lampiran Secara Manual}{24}{subsection.3.8.1}%
-\contentsline {subsection}{\numberline {3.8.2}Menambahkan Daftar Konten \textit {Custom}}{24}{subsection.3.8.2}%
-\contentsline {section}{\numberline {3.9}Memasukan PDF}{25}{section.3.9}%
-\contentsline {section}{\numberline {3.10}Membuat Variabel atau Perintah Baru}{30}{section.3.10}%
-\contentsline {section}{\numberline {3.11}Pengaturan \textit {Header} dan \textit {Footer}}{31}{section.3.11}%
-\contentsline {subsection}{\numberline {3.11.1}Konfigurasi Satu Halaman per Lembar}{32}{subsection.3.11.1}%
-\contentsline {subsection}{\numberline {3.11.2}Konfigurasi untuk Submisi ke UI-ana}{32}{subsection.3.11.2}%
-\contentsline {chapter}{\uppercase {Daftar Referensi}}{33}{section*.18}%
+\contentsline {chapter}{\numberline {2}ISI}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Latar Belakang Pekerjaan}{3}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Deskripsi Pekerjaan}{3}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Tinjauan Pustaka}{4}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Apache Kafka}{4}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Docker Containerization}{4}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Apache Zookeeper}{4}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Distributed System}{5}{subsection.2.3.4}%
+\contentsline {section}{\numberline {2.4}Metodologi Pekerjaan}{5}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Teknologi}{7}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Hasil Pekerjaan}{8}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Aspek Non Teknis}{8}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}Komunikasi}{8}{subsection.2.7.1}%
+\contentsline {subsection}{\numberline {2.7.2}Kerja Sama Tim}{8}{subsection.2.7.2}%
+\contentsline {section}{\numberline {2.8}Analisis Pelaksanaan Kerja Praktik}{9}{section.2.8}%
+\contentsline {subsection}{\numberline {2.8.1}Ulasan kesesuaian dan perbedaan dengan KAKP}{9}{subsection.2.8.1}%
+\contentsline {subsection}{\numberline {2.8.2}Ulasan tentang kendala dan cara menanganinya}{9}{subsection.2.8.2}%
+\contentsline {subsubsection}{\numberline {2.8.2.1}Tidak Memiliki Akses Root pada Infrastruktur UI}{9}{subsubsection.2.8.2.1}%
+\contentsline {subsubsection}{\numberline {2.8.2.2}Dokumentasi dari Peneliti Asli Kurang Lengkap atau Usang}{10}{subsubsection.2.8.2.2}%
+\contentsline {subsubsection}{\numberline {2.8.2.3}Penggunaan Resource yang Besar}{10}{subsubsection.2.8.2.3}%
+\contentsline {subsection}{\numberline {2.8.3}Penilaian Individu Terhadap Tempat Kerja Praktik}{11}{subsection.2.8.3}%
+\contentsline {subsection}{\numberline {2.8.4}Relevansi dengan Perkuliahan}{11}{subsection.2.8.4}%
+\contentsline {subsubsection}{\numberline {2.8.4.1}Sistem Operasi}{11}{subsubsection.2.8.4.1}%
+\contentsline {subsubsection}{\numberline {2.8.4.2}Jaringan Komputer}{11}{subsubsection.2.8.4.2}%
+\contentsline {subsubsection}{\numberline {2.8.4.3}Pemrograman Lanjut}{11}{subsubsection.2.8.4.3}%
+\contentsline {chapter}{\numberline {3}PENUTUP}{12}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Kesimpulan}{12}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Saran}{12}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Pelaksana Kerja Praktik Berikutnya}{12}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Fakultas Ilmu Komputer UI}{13}{subsection.3.2.2}%
+\contentsline {chapter}{\uppercase {Daftar Referensi}}{14}{section*.12}%
