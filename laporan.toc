@@ -31,23 +31,25 @@
 \contentsline {section}{\numberline {2.4}Metodologi Pekerjaan}{5}{section.2.4}%
 \contentsline {section}{\numberline {2.5}Teknologi}{7}{section.2.5}%
 \contentsline {section}{\numberline {2.6}Hasil Pekerjaan}{8}{section.2.6}%
-\contentsline {section}{\numberline {2.7}Aspek Non Teknis}{8}{section.2.7}%
-\contentsline {subsection}{\numberline {2.7.1}Komunikasi}{8}{subsection.2.7.1}%
-\contentsline {subsection}{\numberline {2.7.2}Kerja Sama Tim}{8}{subsection.2.7.2}%
-\contentsline {section}{\numberline {2.8}Analisis Pelaksanaan Kerja Praktik}{9}{section.2.8}%
-\contentsline {subsection}{\numberline {2.8.1}Ulasan kesesuaian dan perbedaan dengan KAKP}{9}{subsection.2.8.1}%
-\contentsline {subsection}{\numberline {2.8.2}Ulasan tentang kendala dan cara menanganinya}{9}{subsection.2.8.2}%
-\contentsline {subsubsection}{\numberline {2.8.2.1}Tidak Memiliki Akses Root pada Infrastruktur UI}{9}{subsubsection.2.8.2.1}%
-\contentsline {subsubsection}{\numberline {2.8.2.2}Dokumentasi dari Peneliti Asli Kurang Lengkap atau Usang}{10}{subsubsection.2.8.2.2}%
-\contentsline {subsubsection}{\numberline {2.8.2.3}Penggunaan Resource yang Besar}{10}{subsubsection.2.8.2.3}%
-\contentsline {subsection}{\numberline {2.8.3}Penilaian Individu Terhadap Tempat Kerja Praktik}{11}{subsection.2.8.3}%
-\contentsline {subsection}{\numberline {2.8.4}Relevansi dengan Perkuliahan}{11}{subsection.2.8.4}%
-\contentsline {subsubsection}{\numberline {2.8.4.1}Sistem Operasi}{11}{subsubsection.2.8.4.1}%
-\contentsline {subsubsection}{\numberline {2.8.4.2}Jaringan Komputer}{11}{subsubsection.2.8.4.2}%
-\contentsline {subsubsection}{\numberline {2.8.4.3}Pemrograman Lanjut}{11}{subsubsection.2.8.4.3}%
-\contentsline {chapter}{\numberline {3}PENUTUP}{12}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Kesimpulan}{12}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Saran}{12}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Pelaksana Kerja Praktik Berikutnya}{12}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Fakultas Ilmu Komputer UI}{13}{subsection.3.2.2}%
-\contentsline {chapter}{\uppercase {Daftar Referensi}}{14}{section*.12}%
+\contentsline {subsection}{\numberline {2.6.1}Framework untuk Melakukan Eksperimen}{8}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}Analisis Eksperimen End-To-End}{9}{subsection.2.6.2}%
+\contentsline {section}{\numberline {2.7}Aspek Non Teknis}{10}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}Komunikasi}{10}{subsection.2.7.1}%
+\contentsline {subsection}{\numberline {2.7.2}Kerja Sama Tim}{10}{subsection.2.7.2}%
+\contentsline {section}{\numberline {2.8}Analisis Pelaksanaan Kerja Praktik}{10}{section.2.8}%
+\contentsline {subsection}{\numberline {2.8.1}Ulasan kesesuaian dan perbedaan dengan KAKP}{11}{subsection.2.8.1}%
+\contentsline {subsection}{\numberline {2.8.2}Ulasan tentang kendala dan cara menanganinya}{11}{subsection.2.8.2}%
+\contentsline {subsubsection}{\numberline {2.8.2.1}Tidak Memiliki Akses Root pada Infrastruktur UI}{11}{subsubsection.2.8.2.1}%
+\contentsline {subsubsection}{\numberline {2.8.2.2}Dokumentasi dari Peneliti Asli Kurang Lengkap atau Usang}{11}{subsubsection.2.8.2.2}%
+\contentsline {subsubsection}{\numberline {2.8.2.3}Penggunaan Resource yang Besar}{12}{subsubsection.2.8.2.3}%
+\contentsline {subsection}{\numberline {2.8.3}Penilaian Individu Terhadap Tempat Kerja Praktik}{12}{subsection.2.8.3}%
+\contentsline {subsection}{\numberline {2.8.4}Relevansi dengan Perkuliahan}{13}{subsection.2.8.4}%
+\contentsline {subsubsection}{\numberline {2.8.4.1}Sistem Operasi}{13}{subsubsection.2.8.4.1}%
+\contentsline {subsubsection}{\numberline {2.8.4.2}Jaringan Komputer}{13}{subsubsection.2.8.4.2}%
+\contentsline {subsubsection}{\numberline {2.8.4.3}Pemrograman Lanjut}{13}{subsubsection.2.8.4.3}%
+\contentsline {chapter}{\numberline {3}PENUTUP}{14}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Kesimpulan}{14}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Saran}{14}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Pelaksana Kerja Praktik Berikutnya}{14}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Fakultas Ilmu Komputer UI}{15}{subsection.3.2.2}%
+\contentsline {chapter}{\uppercase {Daftar Referensi}}{16}{section*.13}%

@@ -3,19 +3,16 @@
 Pada bab ini dijlaskan secara rinci mengenai detil pekerjaan yang dilakukan selama program kerja praktik berlangsung. Latar belakang pekerjaan hingga hasil pekerjaan dijelaskan pada bab ini.
 
 \section{Latar Belakang Pekerjaan}
-\label{sec:latar-belakang}
 
 Pelaksana kerja praktik terlibat dalam penelitian terkait manajemen klaster Kafka di Computer Systems Laboratory (CSL) Fakultas Ilmu Komputer Universitas Indonesia. Penelitian ini berfokus pada optimalisasi partisi topik untuk meningkatkan performa \textit{real-time distributed systems} berbasis Kafka. Proyek ini merupakan bagian dari penelitian bertajuk \textit{Efficient Topic Partitioning of Apache Kafka for High-Reliability Real-Time Data Streaming Applications}. Tugas pelaksana kerja praktik adalah menjalankan eksperimen yang bertujuan untuk menguji algoritma BroMax dan BroMin, yang digunakan untuk menentukan jumlah partisi optimal.
 
 \section{Deskripsi Pekerjaan}
-\label{sec:deskripsi-pekerjaan}
 
 Pelaksana kerja praktik bertanggung jawab atas konfigurasi dan pengelolaan eksperimen \textit{end-to-end}. Proses dimulai dengan penyiapan VM di Google Cloud Platform (GCP) dan infrastruktur Universitas Indonesia (DGX dan BMKGCS), yang digunakan untuk menjalankan simulasi klaster Kafka. Tugas utama meliputi instalasi dependencies, pengaturan Kafka broker, serta analisis hasil eksperimen untuk mengukur performa sistem, khususnya \textit{throughput} dan latensi, saat algoritma BroMax dan BroMin diterapkan.
 
 Pekerjaan dilakukan secara \textit{hybrid} dari pukul 08.00 a.m. WIB hingga pukul 12.00 p.m. WIB, dengan kehadiran di lab hanya pada hari Jumat, sedangkan hari-hari lainnya bekerja secara \textit{remote}. Hasil eksperimen dianalisis dan dilaporkan kepada dosen peneliti untuk evaluasi lebih lanjut.
 
 \section{Tinjauan Pustaka}
-\label{sec:tinjauan-pustaka}
 
 Penelitian yang dilakukan selama kerja praktik ini melibatkan sejumlah konsep penting dalam pengelolaan \textit{real-time distributed systems} dengan menggunakan Apache Kafka dan teknologi pendukung lainnya. Konsep-konsep ini menjadi fondasi utama dalam penelitian dan pengembangan yang dilakukan.
 
@@ -79,7 +76,27 @@ Selama pengerjaan proyek pada kerja praktik, beberapa teknologi utama digunakan 
 
 \section{Hasil Pekerjaan}
 
-TODO: isi bagian ini.
+Selama periode kerja praktik, pelaksana terlibat dalam tugas-tugas yang menuntut analisis mendalam terkait {real-time data streaming} menggunakan Apache Kafka. Pada bagian ini dijelaskan tugas apa saja yang sudah diselesaikan pada periode kerja praktik berlangsung.
+
+\subsection{Framework untuk Melakukan Eksperimen}
+
+Selama kerja praktik, pelaksana kerja praktik menghadapi kendala signifikan terkait \textit{experiment setup} dengan klaster Kafka, terutama saat memindahkan eksperimen dari satu \textit{host} ke \textit{host} lain. Setiap kali berpindah lingkungan, diperlukan pengaturan ulang VM dan pengunduhan dependensi, yang memakan waktu dan rentan terhadap kesalahan manusia. Hal ini sering mengganggu alur eksperimen dan menghambat analisis lebih lanjut.
+
+Untuk mengatasi masalah ini, pelaksana kerja praktik mengusulkan ide kepada dosen peneliti untuk mengembangkan \textit{framework}. \textit{Framework} ini dirancang agar dapat mengotomatisasi seluruh proses \textit{setup}, sehingga pengguna hanya perlu menjalankan sedikit skrip tanpa perlu mengulang pengaturan secara manual. Dengan adanya \textit{framework} ini, pelaksana kerja praktik dapat langsung fokus pada analisis eksperimen tanpa harus khawatir tentang masalah teknis terkait lingkungan yang berulang kali harus disesuaikan. \textit{Framework} ini dapat diakses oleh siapa saja melalui \href{https://github.com/bryan-ilman-on-github/kafka-part-exp}{https://github.com/bryan-ilman-on-github/kafka-part-exp}.
+
+\subsection{Analisis Eksperimen End-To-End}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=1\textwidth]
+	{assets/pics/003-latency-cdf.png}
+	\caption{Analisis Eksperimen \textit{End-To-End}}
+	\label{fig:latency-cdf}
+\end{figure}
+
+Salah satu temuan utama dari eksperimen ini adalah bahwa metode penentuan jumlah partisi sangat memengaruhi \textit{throughput} dan latensi: Terlihat pada \pic~\ref{fig:latency-cdf} bahwa algoritma BroMax, yang aktif memaksimalkan penggunaan semua sumber daya yang tersedia untuk mendistribusikan beban kerja, berhasil mempertahankan latensi yang rendah sehingga menghasilkan \textit{throughput} yang relatif lebih tinggi. Sebaliknya, algoritma BroMin, yang lebih konservatif dalam penggunaan sumber daya, cenderung memiliki latensi yang sedikit lebih tinggi, sehingga \textit{throughput}-nya relatif lebih rendah.
+
+Selain itu, terlihat pula pada \pic~\ref{fig:latency-cdf} bahwa jumlah produsen yang lebih banyak justru mengurangi latensi secara keseluruhan, berlawanan dengan intuisi awal yang menganggap bahwa lebih banyak produsen akan meningkatkan beban klaster dan menyebabkan latensi lebih tinggi. Setelah diskusi dengan tim, didapat penjelasan untuk temuan ini bahwa tingginya \textit{overhead} pada klaster dengan sedikit produsen tidak ideal untuk beban kerja yang sebenarnya. Sebaliknya, pada klaster dengan lebih banyak produsen, \textit{overhead} menjadi tidak signifikan dibandingkan dengan beban kerja yang ada, sehingga performanya lebih stabil. Hasil eksperimen ini memberikan wawasan yang lebih mendalam tentang pengoptimalan konfigurasi klaster Kafka.
 
 \section{Aspek Non Teknis}
 
