@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.20)  26 OCT 2024 01:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.20)  26 OCT 2024 13:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1173,6 +1173,11 @@ Underfull \hbox (badness 2343) in paragraph at lines 22--22
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
+ [][] [][]\OT1/ptm/m/n/12 Framework Berba-sis Con-tainer-iza-tion de-ngan Pen-dekatan 
+ []
+
+
 
 [5
 
@@ -1266,7 +1271,7 @@ l.21
 
 
 ]
-<assets/pics/pacil-org.png, id=370, 704.6325pt x 193.72375pt>
+<assets/pics/pacil-org.png, id=377, 704.6325pt x 193.72375pt>
 File: assets/pics/pacil-org.png Graphic file (type png)
 <use assets/pics/pacil-org.png>
 Package pdftex.def Info: assets/pics/pacil-org.png  used on input line 29.
@@ -1308,16 +1313,6 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
 [4]
-Underfull \hbox (badness 2050) in paragraph at lines 41--42
-[]\OT1/ptm/b/n/12 Pengaturan VM (VM Setup) \OT1/ptm/m/n/12 Langkah awal dalam kerja prak-tik ini adalah
- []
-
-
-Underfull \hbox (badness 1902) in paragraph at lines 41--42
-\OT1/ptm/m/n/12 dikon-fig-urasi meng-gu-na-kan SSH de-ngan ak-ses root. Sete-lah VM disi-ap-kan,
- []
-
-
 
 
 Package fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -1327,30 +1322,11 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 45--46
-[]\OT1/ptm/b/n/12 Pemantauan Sum-ber Daya (Re-source Mon-i-tor-ing) \OT1/ptm/m/n/12 Se-lama eksper-i-men
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 47--48
-[]\OT1/ptm/b/n/12 Eksperimen In-fra-struk-tur UI (UI In-fras-truc-ture Ex-per-i-ments) \OT1/ptm/m/n/12 Sete-lah
- []
-
-
-Underfull \hbox (badness 4036) in paragraph at lines 47--48
-\OT1/ptm/m/n/12 eksper-i-men di GCP berhasil di-lak-sanakan, eksper-i-men serupa di-u-lang pada
- []
-
-
-Underfull \hbox (badness 1286) in paragraph at lines 47--48
-\OT1/ptm/m/n/12 ini juga mengek-splo-rasi peng-gu-naan teknologi Docker-in-Docker (DinD) un-tuk
- []
-
-
-Underfull \hbox (badness 2401) in paragraph at lines 49--50
-\OT1/ptm/m/n/12 Kafka. Pelak-sana kerja prak-tik mem-pela-jari cara kerja Docker, mu-lai dari
- []
-
+<assets/pics/end-to-end-experiment.png, id=425, 472.76625pt x 372.39125pt>
+File: assets/pics/end-to-end-experiment.png Graphic file (type png)
+<use assets/pics/end-to-end-experiment.png>
+Package pdftex.def Info: assets/pics/end-to-end-experiment.png  used on input line 48.
+(pdftex.def)             Requested size: 426.79135pt x 336.18318pt.
 
 
 
@@ -1360,23 +1336,17 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[6]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 60.
- (c:/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+[6 <./assets/pics/end-to-end-experiment.png>]
+Underfull \hbox (badness 1264) in paragraph at lines 61--62
+\OT1/ptm/m/n/12 per-i-laku al-go-ritma Bro-Max dan BroMin dalam kon-disi eksper-i-men yang telah
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 70.
+(c:/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-Underfull \hbox (badness 1038) in paragraph at lines 63--64
+Underfull \hbox (badness 1038) in paragraph at lines 73--74
 []\OT1/ptm/b/n/12 Docker\OT1/ptm/m/n/12 , Meru-pakan plat-form \OT1/ptm/m/it/12 con-tainer-iza-tion \OT1/ptm/m/n/12 yang me-mung-kin-kan pengem-bang
- []
-
-
-Underfull \hbox (badness 2310) in paragraph at lines 71--72
-[]\OT1/ptm/b/n/12 Google Cloud Plat-form (GCP)\OT1/ptm/m/n/12 , GCP adalah plat-form kom-putasi awan yang
- []
-
-
-Underfull \hbox (badness 1168) in paragraph at lines 71--72
-\OT1/ptm/m/n/12 menye-di-akan in-fra-struk-tur un-tuk men-jalankan VM yang men-dukung eksper-i-men
  []
 
 
@@ -1389,35 +1359,45 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
 [7]
-Underfull \hbox (badness 2150) in paragraph at lines 73--74
+Underfull \hbox (badness 2310) in paragraph at lines 81--82
+[]\OT1/ptm/b/n/12 Google Cloud Plat-form (GCP)\OT1/ptm/m/n/12 , GCP adalah plat-form kom-putasi awan yang
+ []
+
+
+Underfull \hbox (badness 1168) in paragraph at lines 81--82
+\OT1/ptm/m/n/12 menye-di-akan in-fra-struk-tur un-tuk men-jalankan VM yang men-dukung eksper-i-men
+ []
+
+
+Underfull \hbox (badness 2150) in paragraph at lines 83--84
 []\OT1/ptm/b/n/12 WhatsApp\OT1/ptm/m/n/12 , Se-ba-gai apli-kasi per-pe-sanan, What-sApp di-gu-na-kan dalam kon-teks
  []
 
 
-Underfull \hbox (badness 1127) in paragraph at lines 85--86
-\OT1/ptm/m/n/12 peneliti un-tuk mengem-bangkan \OT1/ptm/m/it/12 frame-work\OT1/ptm/m/n/12 . \OT1/ptm/m/it/12 Frame-work \OT1/ptm/m/n/12 ini di-ran-cang agar da-pat
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
+[]\OT1/ptm/b/n/12 Framework Berba-sis Con-tainer-iza-tion de-ngan Pen-dekatan
  []
 
 
-Underfull \hbox (badness 1292) in paragraph at lines 85--86
-\OT1/ptm/m/n/12 sedikit skrip tanpa perlu men-gu-lang pen-gat-u-ran se-cara man-ual. De-ngan adanya
+Underfull \hbox (badness 1173) in paragraph at lines 93--94
+\OT1/ptm/m/it/12 frame-work \OT1/ptm/m/n/12 berba-sis \OT1/ptm/m/it/12 con-tainer-iza-tion \OT1/ptm/m/n/12 de-ngan pen-dekatan Docker-in-Docker (DinD).
  []
 
 
-Underfull \hbox (badness 3471) in paragraph at lines 85--86
-\OT1/ptm/m/n/12 tanpa harus khawatir ten-tang masalah tek-nis terkait ling-kungan yang beru-lang
+Underfull \hbox (badness 2818) in paragraph at lines 93--94
+\OT1/ptm/m/n/12 pem-bu-atan Kafka \OT1/ptm/m/it/12 sclus-ter con-tainer \OT1/ptm/m/n/12 yang di dalam-nya berisi be-be-rapa \OT1/ptm/m/it/12 sbro-ker
  []
 
 
-Underfull \hbox (badness 2591) in paragraph at lines 85--86
-\OT1/ptm/m/n/12 kali harus dis-esuaikan. \OT1/ptm/m/it/12 Frame-work \OT1/ptm/m/n/12 ini da-pat di-ak-ses oleh siapa saja melalui
+Underfull \hbox (badness 3019) in paragraph at lines 93--94
+\OT1/ptm/m/it/12 con-tain-ers\OT1/ptm/m/n/12 , tanpa perlu ak-ses \OT1/ptm/m/it/12 root \OT1/ptm/m/n/12 pada \OT1/ptm/m/it/12 host\OT1/ptm/m/n/12 , se-hingga peng-guna hanya perlu
  []
 
-<assets/pics/003-latency-cdf.png, id=432, 481.8pt x 361.35pt>
-File: assets/pics/003-latency-cdf.png Graphic file (type png)
-<use assets/pics/003-latency-cdf.png>
-Package pdftex.def Info: assets/pics/003-latency-cdf.png  used on input line 92.
-(pdftex.def)             Requested size: 426.79135pt x 320.10075pt.
+
+Underfull \hbox (badness 1454) in paragraph at lines 93--94
+\OT1/ptm/m/n/12 eksper-i-men tanpa harus khawatir ten-tang masalah tek-nis terkait ling-kungan yang
+ []
+
 
 
 
@@ -1428,6 +1408,12 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
 [8]
+<assets/pics/latency-cdf.png, id=446, 481.8pt x 361.35pt>
+File: assets/pics/latency-cdf.png Graphic file (type png)
+<use assets/pics/latency-cdf.png>
+Package pdftex.def Info: assets/pics/latency-cdf.png  used on input line 100.
+(pdftex.def)             Requested size: 426.79135pt x 320.10075pt.
+
 
 
 Package fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -1436,14 +1422,12 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[9 <./assets/pics/003-latency-cdf.png>]
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no   in font ptmr7t!
-
-Underfull \hbox (badness 2547) in paragraph at lines 111--112
-\OT1/ptm/m/n/12 sepenuh-nya se-cara mandiri. Se-tiap anggota tim memi-liki pe-ran spe-si-fik yang
- []
-
+[9 <./assets/pics/latency-cdf.png>]
+<assets/pics/first-email.png, id=454, 722.7pt x 1471.4975pt>
+File: assets/pics/first-email.png Graphic file (type png)
+<use assets/pics/first-email.png>
+Package pdftex.def Info: assets/pics/first-email.png  used on input line 118.
+(pdftex.def)             Requested size: 213.39568pt x 434.49216pt.
 
 
 
@@ -1454,15 +1438,8 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
 [10]
-Underfull \hbox (badness 1515) in paragraph at lines 119--120
-[]\OT1/ptm/m/n/12 Secara ke-selu-ruhan, pelak-sanaan kerja prak-tik telah ber-jalan sesuai de-ngan yang
- []
-
-
-Underfull \hbox (badness 2626) in paragraph at lines 129--130
-[]\OT1/ptm/m/n/12 Untuk meng-a-tasi kendala ini, dit-er-ap-kan so-lusi Docker-in-Docker (DinD), yang
- []
-
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no   in font ptmr7t!
 
 
 
@@ -1472,14 +1449,14 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[11]
-Underfull \hbox (badness 2495) in paragraph at lines 135--136
-[]\OT1/ptm/m/n/12 Untuk meng-a-tasi masalah ini, di-lakukan im-pro-visasi ter-hadap be-be-rapa langkah
+[11 <./assets/pics/first-email.png>]
+Underfull \hbox (badness 2547) in paragraph at lines 127--128
+\OT1/ptm/m/n/12 sepenuh-nya se-cara mandiri. Se-tiap anggota tim memi-liki pe-ran spe-si-fik yang
  []
 
 
-Underfull \hbox (badness 1852) in paragraph at lines 139--140
-\OT1/ptm/m/n/12 proses \OT1/ptm/m/it/12 real-time data stream-ing \OT1/ptm/m/n/12 meng-gu-na-kan Apache Kafka. Keter-batasan ini
+Underfull \hbox (badness 1515) in paragraph at lines 135--136
+[]\OT1/ptm/m/n/12 Secara ke-selu-ruhan, pelak-sanaan kerja prak-tik telah ber-jalan sesuai de-ngan yang
  []
 
 
@@ -1492,11 +1469,16 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
 [12]
-Underfull \hbox (badness 1558) in paragraph at lines 152--153
-\OT1/ptm/m/n/12 se-lama kerja prak-tik, di mana \OT1/ptm/m/it/12 rbash script-ing \OT1/ptm/m/n/12 di-gu-na-kan un-tuk men-go-toma-ti-sasi
+Underfull \hbox (badness 2495) in paragraph at lines 151--152
+[]\OT1/ptm/m/n/12 Untuk meng-a-tasi masalah ini, di-lakukan im-pro-visasi ter-hadap be-be-rapa langkah
  []
 
-)
+
+Underfull \hbox (badness 1852) in paragraph at lines 155--156
+\OT1/ptm/m/n/12 proses \OT1/ptm/m/it/12 real-time data stream-ing \OT1/ptm/m/n/12 meng-gu-na-kan Apache Kafka. Keter-batasan ini
+ []
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -1506,13 +1488,36 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
 [13]
+Underfull \hbox (badness 1558) in paragraph at lines 168--169
+\OT1/ptm/m/n/12 se-lama kerja prak-tik, di mana \OT1/ptm/m/it/12 rbash script-ing \OT1/ptm/m/n/12 di-gu-na-kan un-tuk men-go-toma-ti-sasi
+ []
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.13}) has been already used, duplicate ignored
+
+
+Package fancyhdr Warning: \headheight is too small (0.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
+
+[14])
+
+
+Package fancyhdr Warning: \headheight is too small (0.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
+
+[15]
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.15}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.73 \clearchapter
-                   [13
+                   [15
 
 
 
@@ -1535,7 +1540,7 @@ Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no   in font ptmr7t!
 
 
-[14
+[16
 
 
 ])
@@ -1547,7 +1552,7 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[15]
+[17]
 \openout2 = `_internals/pustaka.aux'.
 
  (./_internals/pustaka.tex (./laporan.bbl
@@ -1557,7 +1562,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 ))
 
-[16
+[18
 
 
 
@@ -1566,11 +1571,11 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 ]
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.16}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{page.18}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.80 \clearchapter
-                   [16
+                   [18
 
 
 
@@ -1602,12 +1607,12 @@ l.88     \clearchapter
 \openout2 = `src/99-backMatter/lampiran.aux'.
 
  (./src/99-backMatter/lampiran.tex
-<assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0001.jpg, id=486, 614.295pt x 794.97pt>
+<assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0001.jpg, id=506, 614.295pt x 794.97pt>
 File: assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0001.jpg Graphic file (type jpg)
 <use assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0001.jpg>
 Package pdftex.def Info: assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0001.jpg  used on input line 7.
 (pdftex.def)             Requested size: 426.79135pt x 552.32666pt.
-<assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0002.jpg, id=487, 614.295pt x 794.97pt>
+<assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0002.jpg, id=507, 614.295pt x 794.97pt>
 File: assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0002.jpg Graphic file (type jpg)
 <use assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0002.jpg>
 Package pdftex.def Info: assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0002.jpg  used on input line 9.
@@ -1621,10 +1626,10 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[18
+[20
 
  <./assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0001.jpg>]
-<assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0003.jpg, id=492, 614.295pt x 794.97pt>
+<assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0003.jpg, id=513, 614.295pt x 794.97pt>
 File: assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0003.jpg Graphic file (type jpg)
 <use assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0003.jpg>
 Package pdftex.def Info: assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0003.jpg  used on input line 11.
@@ -1638,8 +1643,8 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[19 <./assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0002.jpg>]
-<assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0004.jpg, id=497, 614.295pt x 794.97pt>
+[21 <./assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0002.jpg>]
+<assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0004.jpg, id=518, 614.295pt x 794.97pt>
 File: assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0004.jpg Graphic file (type jpg)
 <use assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0004.jpg>
 Package pdftex.def Info: assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0004.jpg  used on input line 13.
@@ -1653,8 +1658,8 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[20 <./assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0003.jpg>]
-<assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0005.jpg, id=503, 614.295pt x 794.97pt>
+[22 <./assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0003.jpg>]
+<assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0005.jpg, id=524, 614.295pt x 794.97pt>
 File: assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0005.jpg Graphic file (type jpg)
 <use assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0005.jpg>
 Package pdftex.def Info: assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0005.jpg  used on input line 15.
@@ -1668,8 +1673,8 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[21 <./assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0004.jpg>]
-<assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0006.jpg, id=508, 614.295pt x 794.97pt>
+[23 <./assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0004.jpg>]
+<assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0006.jpg, id=529, 614.295pt x 794.97pt>
 File: assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0006.jpg Graphic file (type jpg)
 <use assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0006.jpg>
 Package pdftex.def Info: assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0006.jpg  used on input line 17.
@@ -1683,7 +1688,7 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[22 <./assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0005.jpg>]
+[24 <./assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0005.jpg>]
 
 
 Package fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -1692,13 +1697,13 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[23 <./assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0006.jpg>]
-<assets/pics/Log-1-CSL-Bryan Raihan Ilman-0001.jpg, id=517, 614.295pt x 794.97pt>
+[25 <./assets/pics/KAKP_Bryan Raihan Ilman_2106704351_signed_page-0006.jpg>]
+<assets/pics/Log-1-CSL-Bryan Raihan Ilman-0001.jpg, id=538, 614.295pt x 794.97pt>
 File: assets/pics/Log-1-CSL-Bryan Raihan Ilman-0001.jpg Graphic file (type jpg)
 <use assets/pics/Log-1-CSL-Bryan Raihan Ilman-0001.jpg>
 Package pdftex.def Info: assets/pics/Log-1-CSL-Bryan Raihan Ilman-0001.jpg  used on input line 27.
 (pdftex.def)             Requested size: 426.79135pt x 552.32666pt.
-<assets/pics/Log-1-CSL-Bryan Raihan Ilman-0002.jpg, id=518, 614.295pt x 794.97pt>
+<assets/pics/Log-1-CSL-Bryan Raihan Ilman-0002.jpg, id=539, 614.295pt x 794.97pt>
 File: assets/pics/Log-1-CSL-Bryan Raihan Ilman-0002.jpg Graphic file (type jpg)
 <use assets/pics/Log-1-CSL-Bryan Raihan Ilman-0002.jpg>
 Package pdftex.def Info: assets/pics/Log-1-CSL-Bryan Raihan Ilman-0002.jpg  used on input line 29.
@@ -1712,8 +1717,8 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[24 <./assets/pics/Log-1-CSL-Bryan Raihan Ilman-0001.jpg>]
-<assets/pics/Log-2-CSL-Bryan Raihan Ilman-0001.jpg, id=523, 614.295pt x 794.97pt>
+[26 <./assets/pics/Log-1-CSL-Bryan Raihan Ilman-0001.jpg>]
+<assets/pics/Log-2-CSL-Bryan Raihan Ilman-0001.jpg, id=545, 614.295pt x 794.97pt>
 File: assets/pics/Log-2-CSL-Bryan Raihan Ilman-0001.jpg Graphic file (type jpg)
 <use assets/pics/Log-2-CSL-Bryan Raihan Ilman-0001.jpg>
 Package pdftex.def Info: assets/pics/Log-2-CSL-Bryan Raihan Ilman-0001.jpg  used on input line 31.
@@ -1727,8 +1732,8 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[25 <./assets/pics/Log-1-CSL-Bryan Raihan Ilman-0002.jpg>]
-<assets/pics/Log-2-CSL-Bryan Raihan Ilman-0002.jpg, id=529, 614.295pt x 794.97pt>
+[27 <./assets/pics/Log-1-CSL-Bryan Raihan Ilman-0002.jpg>]
+<assets/pics/Log-2-CSL-Bryan Raihan Ilman-0002.jpg, id=550, 614.295pt x 794.97pt>
 File: assets/pics/Log-2-CSL-Bryan Raihan Ilman-0002.jpg Graphic file (type jpg)
 <use assets/pics/Log-2-CSL-Bryan Raihan Ilman-0002.jpg>
 Package pdftex.def Info: assets/pics/Log-2-CSL-Bryan Raihan Ilman-0002.jpg  used on input line 33.
@@ -1742,8 +1747,8 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[26 <./assets/pics/Log-2-CSL-Bryan Raihan Ilman-0001.jpg>]
-<assets/pics/Log-3-CSL-Bryan Raihan Ilman-0001.jpg, id=535, 614.295pt x 794.97pt>
+[28 <./assets/pics/Log-2-CSL-Bryan Raihan Ilman-0001.jpg>]
+<assets/pics/Log-3-CSL-Bryan Raihan Ilman-0001.jpg, id=555, 614.295pt x 794.97pt>
 File: assets/pics/Log-3-CSL-Bryan Raihan Ilman-0001.jpg Graphic file (type jpg)
 <use assets/pics/Log-3-CSL-Bryan Raihan Ilman-0001.jpg>
 Package pdftex.def Info: assets/pics/Log-3-CSL-Bryan Raihan Ilman-0001.jpg  used on input line 35.
@@ -1757,8 +1762,8 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[27 <./assets/pics/Log-2-CSL-Bryan Raihan Ilman-0002.jpg>]
-<assets/pics/Log-3-CSL-Bryan Raihan Ilman-0002.jpg, id=540, 614.295pt x 794.97pt>
+[29 <./assets/pics/Log-2-CSL-Bryan Raihan Ilman-0002.jpg>]
+<assets/pics/Log-3-CSL-Bryan Raihan Ilman-0002.jpg, id=560, 614.295pt x 794.97pt>
 File: assets/pics/Log-3-CSL-Bryan Raihan Ilman-0002.jpg Graphic file (type jpg)
 <use assets/pics/Log-3-CSL-Bryan Raihan Ilman-0002.jpg>
 Package pdftex.def Info: assets/pics/Log-3-CSL-Bryan Raihan Ilman-0002.jpg  used on input line 37.
@@ -1772,8 +1777,8 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[28 <./assets/pics/Log-3-CSL-Bryan Raihan Ilman-0001.jpg>]
-<assets/pics/Log-4-CSL-Bryan Raihan Ilman-0001.jpg, id=545, 614.295pt x 794.97pt>
+[30 <./assets/pics/Log-3-CSL-Bryan Raihan Ilman-0001.jpg>]
+<assets/pics/Log-4-CSL-Bryan Raihan Ilman-0001.jpg, id=565, 614.295pt x 794.97pt>
 File: assets/pics/Log-4-CSL-Bryan Raihan Ilman-0001.jpg Graphic file (type jpg)
 <use assets/pics/Log-4-CSL-Bryan Raihan Ilman-0001.jpg>
 Package pdftex.def Info: assets/pics/Log-4-CSL-Bryan Raihan Ilman-0001.jpg  used on input line 39.
@@ -1787,8 +1792,8 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[29 <./assets/pics/Log-3-CSL-Bryan Raihan Ilman-0002.jpg>]
-<assets/pics/Log-4-CSL-Bryan Raihan Ilman-0002.jpg, id=550, 614.295pt x 794.97pt>
+[31 <./assets/pics/Log-3-CSL-Bryan Raihan Ilman-0002.jpg>]
+<assets/pics/Log-4-CSL-Bryan Raihan Ilman-0002.jpg, id=570, 614.295pt x 794.97pt>
 File: assets/pics/Log-4-CSL-Bryan Raihan Ilman-0002.jpg Graphic file (type jpg)
 <use assets/pics/Log-4-CSL-Bryan Raihan Ilman-0002.jpg>
 Package pdftex.def Info: assets/pics/Log-4-CSL-Bryan Raihan Ilman-0002.jpg  used on input line 41.
@@ -1802,8 +1807,8 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[30 <./assets/pics/Log-4-CSL-Bryan Raihan Ilman-0001.jpg>]
-<assets/pics/Log-5-CSL-Bryan Raihan Ilman-0001.jpg, id=555, 614.295pt x 794.97pt>
+[32 <./assets/pics/Log-4-CSL-Bryan Raihan Ilman-0001.jpg>]
+<assets/pics/Log-5-CSL-Bryan Raihan Ilman-0001.jpg, id=576, 614.295pt x 794.97pt>
 File: assets/pics/Log-5-CSL-Bryan Raihan Ilman-0001.jpg Graphic file (type jpg)
 <use assets/pics/Log-5-CSL-Bryan Raihan Ilman-0001.jpg>
 Package pdftex.def Info: assets/pics/Log-5-CSL-Bryan Raihan Ilman-0001.jpg  used on input line 43.
@@ -1817,8 +1822,8 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[31 <./assets/pics/Log-4-CSL-Bryan Raihan Ilman-0002.jpg>]
-<assets/pics/Log-5-CSL-Bryan Raihan Ilman-0002.jpg, id=560, 614.295pt x 794.97pt>
+[33 <./assets/pics/Log-4-CSL-Bryan Raihan Ilman-0002.jpg>]
+<assets/pics/Log-5-CSL-Bryan Raihan Ilman-0002.jpg, id=581, 614.295pt x 794.97pt>
 File: assets/pics/Log-5-CSL-Bryan Raihan Ilman-0002.jpg Graphic file (type jpg)
 <use assets/pics/Log-5-CSL-Bryan Raihan Ilman-0002.jpg>
 Package pdftex.def Info: assets/pics/Log-5-CSL-Bryan Raihan Ilman-0002.jpg  used on input line 45.
@@ -1832,8 +1837,8 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[32 <./assets/pics/Log-5-CSL-Bryan Raihan Ilman-0001.jpg>]
-<assets/pics/Log-6-CSL-Bryan Raihan Ilman-0001.jpg, id=566, 614.295pt x 794.97pt>
+[34 <./assets/pics/Log-5-CSL-Bryan Raihan Ilman-0001.jpg>]
+<assets/pics/Log-6-CSL-Bryan Raihan Ilman-0001.jpg, id=586, 614.295pt x 794.97pt>
 File: assets/pics/Log-6-CSL-Bryan Raihan Ilman-0001.jpg Graphic file (type jpg)
 <use assets/pics/Log-6-CSL-Bryan Raihan Ilman-0001.jpg>
 Package pdftex.def Info: assets/pics/Log-6-CSL-Bryan Raihan Ilman-0001.jpg  used on input line 47.
@@ -1847,8 +1852,8 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[33 <./assets/pics/Log-5-CSL-Bryan Raihan Ilman-0002.jpg>]
-<assets/pics/Log-7-CSL-Bryan Raihan Ilman-0001.jpg, id=571, 614.295pt x 794.97pt>
+[35 <./assets/pics/Log-5-CSL-Bryan Raihan Ilman-0002.jpg>]
+<assets/pics/Log-7-CSL-Bryan Raihan Ilman-0001.jpg, id=591, 614.295pt x 794.97pt>
 File: assets/pics/Log-7-CSL-Bryan Raihan Ilman-0001.jpg Graphic file (type jpg)
 <use assets/pics/Log-7-CSL-Bryan Raihan Ilman-0001.jpg>
 Package pdftex.def Info: assets/pics/Log-7-CSL-Bryan Raihan Ilman-0001.jpg  used on input line 49.
@@ -1862,8 +1867,8 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[34 <./assets/pics/Log-6-CSL-Bryan Raihan Ilman-0001.jpg>]
-<assets/pics/Log-7-CSL-Bryan Raihan Ilman-0002.jpg, id=576, 614.295pt x 794.97pt>
+[36 <./assets/pics/Log-6-CSL-Bryan Raihan Ilman-0001.jpg>]
+<assets/pics/Log-7-CSL-Bryan Raihan Ilman-0002.jpg, id=596, 614.295pt x 794.97pt>
 File: assets/pics/Log-7-CSL-Bryan Raihan Ilman-0002.jpg Graphic file (type jpg)
 <use assets/pics/Log-7-CSL-Bryan Raihan Ilman-0002.jpg>
 Package pdftex.def Info: assets/pics/Log-7-CSL-Bryan Raihan Ilman-0002.jpg  used on input line 51.
@@ -1877,8 +1882,8 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[35 <./assets/pics/Log-7-CSL-Bryan Raihan Ilman-0001.jpg>]
-<assets/pics/Log-8-CSL-Bryan Raihan Ilman-0001.jpg, id=581, 614.295pt x 794.97pt>
+[37 <./assets/pics/Log-7-CSL-Bryan Raihan Ilman-0001.jpg>]
+<assets/pics/Log-8-CSL-Bryan Raihan Ilman-0001.jpg, id=601, 614.295pt x 794.97pt>
 File: assets/pics/Log-8-CSL-Bryan Raihan Ilman-0001.jpg Graphic file (type jpg)
 <use assets/pics/Log-8-CSL-Bryan Raihan Ilman-0001.jpg>
 Package pdftex.def Info: assets/pics/Log-8-CSL-Bryan Raihan Ilman-0001.jpg  used on input line 53.
@@ -1892,8 +1897,8 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[36 <./assets/pics/Log-7-CSL-Bryan Raihan Ilman-0002.jpg>]
-<assets/pics/Log-9-CSL-Bryan Raihan Ilman-0001.jpg, id=586, 614.295pt x 794.97pt>
+[38 <./assets/pics/Log-7-CSL-Bryan Raihan Ilman-0002.jpg>]
+<assets/pics/Log-9-CSL-Bryan Raihan Ilman-0001.jpg, id=607, 614.295pt x 794.97pt>
 File: assets/pics/Log-9-CSL-Bryan Raihan Ilman-0001.jpg Graphic file (type jpg)
 <use assets/pics/Log-9-CSL-Bryan Raihan Ilman-0001.jpg>
 Package pdftex.def Info: assets/pics/Log-9-CSL-Bryan Raihan Ilman-0001.jpg  used on input line 55.
@@ -1907,8 +1912,8 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[37 <./assets/pics/Log-8-CSL-Bryan Raihan Ilman-0001.jpg>]
-<assets/pics/Log-9-CSL-Bryan Raihan Ilman-0002.jpg, id=591, 614.295pt x 794.97pt>
+[39 <./assets/pics/Log-8-CSL-Bryan Raihan Ilman-0001.jpg>]
+<assets/pics/Log-9-CSL-Bryan Raihan Ilman-0002.jpg, id=612, 614.295pt x 794.97pt>
 File: assets/pics/Log-9-CSL-Bryan Raihan Ilman-0002.jpg Graphic file (type jpg)
 <use assets/pics/Log-9-CSL-Bryan Raihan Ilman-0002.jpg>
 Package pdftex.def Info: assets/pics/Log-9-CSL-Bryan Raihan Ilman-0002.jpg  used on input line 57.
@@ -1922,8 +1927,8 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[38 <./assets/pics/Log-9-CSL-Bryan Raihan Ilman-0001.jpg>]
-<assets/pics/Log-10-CSL-Bryan Raihan Ilman-0001.jpg, id=597, 614.295pt x 794.97pt>
+[40 <./assets/pics/Log-9-CSL-Bryan Raihan Ilman-0001.jpg>]
+<assets/pics/Log-10-CSL-Bryan Raihan Ilman-0001.jpg, id=617, 614.295pt x 794.97pt>
 File: assets/pics/Log-10-CSL-Bryan Raihan Ilman-0001.jpg Graphic file (type jpg)
 <use assets/pics/Log-10-CSL-Bryan Raihan Ilman-0001.jpg>
 Package pdftex.def Info: assets/pics/Log-10-CSL-Bryan Raihan Ilman-0001.jpg  used on input line 59.
@@ -1937,8 +1942,8 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[39 <./assets/pics/Log-9-CSL-Bryan Raihan Ilman-0002.jpg>]
-<assets/pics/Log-11-CSL-Bryan Raihan Ilman-0001.jpg, id=602, 614.295pt x 794.97pt>
+[41 <./assets/pics/Log-9-CSL-Bryan Raihan Ilman-0002.jpg>]
+<assets/pics/Log-11-CSL-Bryan Raihan Ilman-0001.jpg, id=622, 614.295pt x 794.97pt>
 File: assets/pics/Log-11-CSL-Bryan Raihan Ilman-0001.jpg Graphic file (type jpg)
 <use assets/pics/Log-11-CSL-Bryan Raihan Ilman-0001.jpg>
 Package pdftex.def Info: assets/pics/Log-11-CSL-Bryan Raihan Ilman-0001.jpg  used on input line 61.
@@ -1952,8 +1957,8 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[40 <./assets/pics/Log-10-CSL-Bryan Raihan Ilman-0001.jpg>]
-<assets/pics/Log-12-CSL-Bryan Raihan Ilman-0001.jpg, id=607, 614.295pt x 794.97pt>
+[42 <./assets/pics/Log-10-CSL-Bryan Raihan Ilman-0001.jpg>]
+<assets/pics/Log-12-CSL-Bryan Raihan Ilman-0001.jpg, id=627, 614.295pt x 794.97pt>
 File: assets/pics/Log-12-CSL-Bryan Raihan Ilman-0001.jpg Graphic file (type jpg)
 <use assets/pics/Log-12-CSL-Bryan Raihan Ilman-0001.jpg>
 Package pdftex.def Info: assets/pics/Log-12-CSL-Bryan Raihan Ilman-0001.jpg  used on input line 63.
@@ -1967,7 +1972,7 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[41 <./assets/pics/Log-11-CSL-Bryan Raihan Ilman-0001.jpg>]
+[43 <./assets/pics/Log-11-CSL-Bryan Raihan Ilman-0001.jpg>]
 
 
 Package fancyhdr Warning: \headheight is too small (0.0pt): 
@@ -1976,27 +1981,27 @@ Package fancyhdr Warning: \headheight is too small (0.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-14.49998pt}.
 
-[42 <./assets/pics/Log-12-CSL-Bryan Raihan Ilman-0001.jpg>] (./laporan.aux (./_internals/sampul.aux) (./_internals/judul_dalam.aux) (./src/00-frontMatter/pengesahanKP.aux) (./src/00-frontMatter/abstrak.aux) (./src/00-frontMatter/abstract.aux) (./src/01-body/bab1.aux) (./src/01-body/bab2.aux) (./src/01-body/bab3.aux) (./_internals/pustaka.aux) (./_internals/markLampiran.aux) (./src/99-backMatter/lampiran.aux))
+[44 <./assets/pics/Log-12-CSL-Bryan Raihan Ilman-0001.jpg>] (./laporan.aux (./_internals/sampul.aux) (./_internals/judul_dalam.aux) (./src/00-frontMatter/pengesahanKP.aux) (./src/00-frontMatter/abstrak.aux) (./src/00-frontMatter/abstract.aux) (./src/01-body/bab1.aux) (./src/01-body/bab2.aux) (./src/01-body/bab3.aux) (./_internals/pustaka.aux) (./_internals/markLampiran.aux) (./src/99-backMatter/lampiran.aux))
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
  ***********
 Package rerunfilecheck Info: File `laporan.out' has not changed.
-(rerunfilecheck)             Checksum: 7054B4C6921D1F0909F5E9C426BCD5ED;9183.
+(rerunfilecheck)             Checksum: BB13F0C0E35F36594E9C9AB3511112C2;9403.
  ) 
 Here is how much of TeX's memory you used:
- 27810 strings out of 473579
- 512405 string characters out of 5732263
- 888932 words of memory out of 5000000
- 49850 multiletter control sequences out of 15000+600000
+ 27830 strings out of 473579
+ 513013 string characters out of 5732263
+ 888068 words of memory out of 5000000
+ 49866 multiletter control sequences out of 15000+600000
  587008 words of font info for 91 fonts, out of 8000000 for 9000
  1274 hyphenation exceptions out of 8191
- 114i,12n,121p,2288b,594s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 114i,12n,121p,2297b,626s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on laporan.pdf (59 pages, 9482046 bytes).
+Output written on laporan.pdf (61 pages, 9612097 bytes).
 PDF statistics:
- 669 PDF objects out of 1000 (max. 8388607)
- 559 compressed objects within 6 object streams
- 114 named destinations out of 1000 (max. 500000)
- 526 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 691 PDF objects out of 1000 (max. 8388607)
+ 576 compressed objects within 6 object streams
+ 118 named destinations out of 1000 (max. 500000)
+ 536 words of extra memory for PDF output out of 10000 (max. 10000000)
 

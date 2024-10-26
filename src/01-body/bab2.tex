@@ -38,17 +38,27 @@ Selama pelaksanaan kerja praktik, penelitian dilakukan dengan metodologi yang be
 
 \begin{enumerate}
 
-	\item \textbf{Pengaturan VM (VM Setup)} Langkah awal dalam kerja praktik ini adalah menyiapkan VM (Virtual Machine) di Google Cloud Platform (GCP). VM tersebut dikonfigurasi menggunakan SSH dengan akses root. Setelah VM disiapkan, seluruh dependensi yang diperlukan untuk menjalankan eksperimen Kafka diinstal. Konfigurasi ini memastikan bahwa VM siap untuk menjalankan berbagai eksperimen Kafka, di mana satu VM bertindak sebagai Kafka client, dan VM lainnya berperan sebagai Kafka cluster. Seluruh pengaturan ini bertujuan untuk mendukung kelancaran eksperimen yang dilakukan.
+	\item \textbf{Pengaturan VM}. Langkah awal dalam kerja praktik ini adalah menyiapkan VM (Virtual Machine) di Google Cloud Platform (GCP). VM tersebut dikonfigurasi menggunakan SSH dengan akses \textit{root}. Setelah VM disiapkan, seluruh dependensi yang diperlukan untuk menjalankan eksperimen Kafka diinstal. Konfigurasi ini memastikan bahwa VM siap untuk menjalankan berbagai eksperimen Kafka, di mana satu VM bertindak sebagai Kafka \textit{client}, dan VM lainnya berperan sebagai Kafka \textit{cluster}. Seluruh pengaturan ini bertujuan untuk mendukung kelancaran eksperimen yang dilakukan.
 
-	\item \textbf{Eksekusi Eksperimen (Experiment Execution)} Setelah pengaturan infrastruktur selesai, eksperimen dilakukan dengan fokus pada simulasi \textit{end-to-end} yang bertujuan untuk memantau algoritma BroMax dan BroMin dalam menentukan jumlah partisi dan broker pada sistem Apache Kafka. Eksperimen ini melibatkan pengaturan dua VM dengan fungsi yang berbeda: satu VM bertindak sebagai Kafka client yang mengirimkan dan menerima data, sedangkan VM lainnya bertindak sebagai Kafka cluster berisi broker yang mengelola partisi. Eksperimen ini penting untuk memahami perilaku \textit{throughput} dan latensi sistem secara keseluruhan dalam kondisi yang mendekati \textit{real-time streaming}. Hasil dari eksperimen ini memberikan wawasan tentang cara kerja algoritma BroMax dan BroMin dalam optimasi partisi.
+	\item \textbf{Eksekusi Eksperimen End-To-End}.
+	
+	\begin{figure}
+		\centering
+		\includegraphics[width=1\textwidth]
+		{assets/pics/end-to-end-experiment.png}
+		\caption{Eksekusi Eksperimen \textit{End-To-End}}
+		\label{fig:end-to-end-experiment}
+	\end{figure}
+	
+	Setelah pengaturan infrastruktur selesai, eksperimen dilakukan dengan fokus pada simulasi \textit{end-to-end} yang bertujuan untuk memantau algoritma BroMax dan BroMin dalam menentukan jumlah partisi dan broker pada sistem Apache Kafka. Terlihat pada \pic~\ref{fig:end-to-end-experiment} bahwa eksperimen ini melibatkan pengaturan dua VM dengan fungsi yang berbeda: satu VM bertindak sebagai Kafka client yang mengirimkan dan menerima data, sedangkan VM lainnya bertindak sebagai Kafka cluster berisi broker yang mengelola partisi. Eksperimen ini penting untuk memahami perilaku \textit{throughput} dan latensi sistem secara keseluruhan dalam kondisi yang mendekati \textit{real-time streaming}. Hasil dari eksperimen ini memberikan wawasan tentang cara kerja algoritma BroMax dan BroMin dalam optimasi partisi.
 
-	\item \textbf{Pemantauan Sumber Daya (Resource Monitoring)} Selama eksperimen berlangsung, pemantauan sumber daya dilakukan secara berkala untuk memantau penggunaan CPU, RAM, dan \textit{disk space} pada VM. Hal ini penting untuk memastikan bahwa eksperimen berjalan dengan efisien tanpa ada \textit{bottleneck} dalam pemanfaatan sumber daya. Data yang dihasilkan dari pemantauan sumber daya ini juga menjadi acuan dalam mengevaluasi performa algoritma BroMax dan BroMin.
+	\item \textbf{Pemantauan Sumber Daya}. Selama eksperimen berlangsung, pemantauan sumber daya dilakukan secara berkala untuk memantau penggunaan CPU, RAM, dan \textit{disk space} pada VM. Hal ini penting untuk memastikan bahwa eksperimen berjalan dengan efisien tanpa ada \textit{bottleneck} dalam pemanfaatan sumber daya. Data yang dihasilkan dari pemantauan sumber daya ini juga menjadi acuan dalam mengevaluasi performa algoritma BroMax dan BroMin.
 
-	\item \textbf{Eksperimen Infrastruktur UI (UI Infrastructure Experiments)} Setelah eksperimen di GCP berhasil dilaksanakan, eksperimen serupa diulang pada infrastruktur UI menggunakan mesin DGX dan BMKGCS. Eksperimen ini dilakukan untuk memastikan bahwa hasil eksperimen dapat direplikasi di lingkungan yang berbeda dengan kapasitas sumber daya yang lebih besar. Selain itu, eksperimen ini juga mengeksplorasi penggunaan teknologi Docker-in-Docker (DinD) untuk menjalankan eksperimen tanpa akses root pada mesin infrastruktur UI. Pendekatan ini memberikan fleksibilitas lebih dalam menjalankan eksperimen di lingkungan yang lebih terbatas.
+	\item \textbf{Eksperimen Infrastruktur UI}. Setelah eksperimen di GCP berhasil dilaksanakan, eksperimen serupa diulang pada infrastruktur UI menggunakan mesin DGX dan BMKGCS tanpa akses \textit{root}. Eksperimen ini dilakukan untuk memastikan bahwa hasil eksperimen dapat direplikasi di lingkungan yang berbeda dengan kapasitas sumber daya yang lebih besar.
 
-	\item \textbf{Implementasi Docker (Docker Implementation)} Dalam eksperimen ini, Docker digunakan untuk membangun dan mengelola \textit{container} yang berisi aplikasi Apache Kafka. Pelaksana kerja praktik mempelajari cara kerja Docker, mulai dari membangun image hingga pengaturan komunikasi antar \textit{container}. Implementasi Docker ini bertujuan untuk memudahkan manajemen infrastruktur eksperimen dengan memisahkan setiap komponen sistem ke dalam container yang terisolasi. Selain itu, penggunaan Docker juga meminimalkan masalah yang mungkin terjadi dalam konfigurasi VM dan meningkatkan portabilitas sistem.
+	\item \textbf{Implementasi Containerization dengan Docker}. Dalam eksperimen ini, Docker digunakan untuk membangun dan mengelola \textit{container} yang berisi aplikasi Apache Kafka. Pelaksana kerja praktik mempelajari cara kerja Docker, mulai dari membangun \textit{image} hingga pengaturan komunikasi antar \textit{container}. Dengan \textit{containerization}, eksperimen dapat dijalankan pada \textit{host} tanpa akses \textit{root} sekalipun. Eksperimen ini juga mengeksplorasi penggunaan teknologi Docker-in-Docker (DinD) ketika membuat Kafka \textit{scluster container} yang di dalamnya berisi beberapa \textit{sbroker containers}.
 
-	\item \textbf{Analisis Data dan Pelaporan (Data Analysis and Reporting)} Setelah seluruh eksperimen selesai dijalankan, data hasil eksperimen dianalisis untuk membuat plot yang menggambarkan performa \textit{throughput} dan latensi sistem. Plot ini kemudian digunakan untuk mendeskripsikan perilaku algoritma BroMax dan BroMin dalam kondisi eksperimen yang telah dilakukan. Hasil analisis ini kemudian disajikan dalam laporan kepada dosen peneliti, serta didiskusikan dengan para peneliti lainnya untuk mendapatkan umpan balik dan evaluasi lebih lanjut mengenai hasil eksperimen.
+	\item \textbf{Analisis Data dan Pelaporan}. Setelah seluruh eksperimen selesai dijalankan, data hasil eksperimen dianalisis untuk membuat plot yang menggambarkan performa \textit{throughput} dan latensi sistem. Plot ini kemudian digunakan untuk mendeskripsikan perilaku algoritma BroMax dan BroMin dalam kondisi eksperimen yang telah dilakukan. Hasil analisis ini kemudian disajikan dalam laporan kepada dosen peneliti, serta didiskusikan dengan para peneliti lainnya untuk mendapatkan umpan balik dan evaluasi lebih lanjut mengenai hasil eksperimen.
 
 \end{enumerate}
 
@@ -78,18 +88,16 @@ Selama pengerjaan proyek pada kerja praktik, beberapa teknologi utama digunakan 
 
 Selama periode kerja praktik, pelaksana terlibat dalam tugas-tugas yang menuntut analisis mendalam terkait {real-time data streaming} menggunakan Apache Kafka. Pada bagian ini dijelaskan tugas apa saja yang sudah diselesaikan pada periode kerja praktik berlangsung.
 
-\subsection{Framework untuk Melakukan Eksperimen}
+\subsection{Framework Berbasis Containerization dengan Pendekatan Docker-in-Docker (DinD)}
 
-Selama kerja praktik, pelaksana kerja praktik menghadapi kendala signifikan terkait \textit{experiment setup} dengan klaster Kafka, terutama saat memindahkan eksperimen dari satu \textit{host} ke \textit{host} lain. Setiap kali berpindah lingkungan, diperlukan pengaturan ulang VM dan pengunduhan dependensi, yang memakan waktu dan rentan terhadap kesalahan manusia. Hal ini sering mengganggu alur eksperimen dan menghambat analisis lebih lanjut.
-
-Untuk mengatasi masalah ini, pelaksana kerja praktik mengusulkan ide kepada dosen peneliti untuk mengembangkan \textit{framework}. \textit{Framework} ini dirancang agar dapat mengotomatisasi seluruh proses \textit{setup}, sehingga pengguna hanya perlu menjalankan sedikit skrip tanpa perlu mengulang pengaturan secara manual. Dengan adanya \textit{framework} ini, pelaksana kerja praktik dapat langsung fokus pada analisis eksperimen tanpa harus khawatir tentang masalah teknis terkait lingkungan yang berulang kali harus disesuaikan. \textit{Framework} ini dapat diakses oleh siapa saja melalui \href{https://github.com/bryan-ilman-on-github/kafka-part-exp}{https://github.com/bryan-ilman-on-github/kafka-part-exp}.
+Pelaksana kerja praktik mengusulkan ide kepada dosen peneliti untuk mengembangkan \textit{framework} berbasis \textit{containerization} dengan pendekatan Docker-in-Docker (DinD). \textit{Framework} ini dirancang agar dapat mengotomatisasi seluruh proses \textit{setup}, termasuk pembuatan Kafka \textit{scluster container} yang di dalamnya berisi beberapa \textit{sbroker containers}, tanpa perlu akses \textit{root} pada \textit{host}, sehingga pengguna hanya perlu menjalankan sedikit skrip tanpa perlu mengulang pengaturan secara manual. Dengan adanya \textit{framework} ini, pelaksana kerja praktik dapat langsung fokus pada analisis eksperimen tanpa harus khawatir tentang masalah teknis terkait lingkungan yang berulang kali harus disesuaikan. \textit{Framework} ini dapat diakses oleh siapa saja melalui \textcolor{blue}{\href{https://github.com/bryan-ilman-on-github/kafka-part-exp}{https://github.com/bryan-ilman-on-github/kafka-part-exp}}.
 
 \subsection{Analisis Eksperimen End-To-End}
 
 \begin{figure}
 	\centering
 	\includegraphics[width=1\textwidth]
-	{assets/pics/003-latency-cdf.png}
+	{assets/pics/latency-cdf.png}
 	\caption{Analisis Eksperimen \textit{End-To-End}}
 	\label{fig:latency-cdf}
 \end{figure}
@@ -104,7 +112,15 @@ Dalam pelaksanaan kerja praktik, terdapat berbagai pembelajaran non-teknis yang 
 
 \subsection{Komunikasi}
 
-Selama kerja praktik, komunikasi memainkan peranan yang sangat penting dalam memastikan kelancaran proyek dan kesesuaian hasil dengan tujuan yang ditetapkan. Salah satu contoh penting dalam hal ini adalah komunikasi yang dilakukan melalui email dengan Profesor Claudio Cicconetti dari Università di Pisa, penulis penelitian yang eksperimennya sedang pelaksana kerja praktik coba untuk replikasi. Pelaksana kerja praktik menghubungi Profesor Cicconetti untuk meminta klarifikasi mengenai beberapa aspek teknis dari penelitiannya, dan beliau dengan ramah memberikan tanggapan serta penjelasan yang sangat membantu. Hal ini menekankan pentingnya komunikasi yang efektif dalam lingkungan akademik dan profesional, terutama saat bekerja dengan pihak eksternal yang memiliki keahlian khusus dalam bidang tertentu.
+\begin{figure}
+	\centering
+	\includegraphics[width=0.5\textwidth]
+	{assets/pics/first-email.png}
+	\caption{Email Pertama dari Profesor Claudio}
+	\label{fig:first-email}
+\end{figure}
+
+Selama kerja praktik, komunikasi memainkan peranan yang sangat penting dalam memastikan kelancaran proyek dan kesesuaian hasil dengan tujuan yang ditetapkan. Salah satu contoh penting dalam hal ini adalah komunikasi yang dilakukan melalui email dengan Profesor Claudio Cicconetti dari Università di Pisa, penulis penelitian yang eksperimennya sedang pelaksana kerja praktik coba untuk replikasi. Terlihat pada \pic~\ref{fig:first-email} bahwa pelaksana kerja praktik pertama kali menginformasikan kepada Profesor Cicconetti bahwa eksperimennya sedang direproduksi. Setelah itu, email-email selanjutnya berfokus pada klarifikasi mengenai beberapa aspek teknis dari penelitiannya, dan beliau dengan ramah memberikan tanggapan serta penjelasan yang sangat membantu. Hal ini menekankan pentingnya komunikasi yang efektif dalam lingkungan akademik dan profesional, terutama saat bekerja dengan pihak eksternal yang memiliki keahlian khusus dalam bidang tertentu.
 
 \subsection{Kerja Sama Tim}
 
@@ -124,9 +140,9 @@ Selama kerja praktik, beberapa kendala teknis muncul, berkaitan langsung dengan 
 
 \subsubsection{Tidak Memiliki Akses Root pada Infrastruktur UI}
 
-Salah satu kendala utama yang muncul selama kerja praktik adalah keterbatasan akses root pada infrastruktur Universitas Indonesia (UI). Akses root sangat penting dalam eksperimen, terutama untuk mengunduh \textit{library} atau melakukan konfigurasi yang lebih mendalam pada sistem. Tanpa akses ini, beberapa langkah teknis yang memerlukan izin tingkat sistem tidak dapat dilakukan secara langsung, sehingga menghambat kelancaran eksperimen. Kondisi ini menuntut solusi yang inovatif untuk mengatasi batasan tersebut.
+Salah satu kendala utama yang muncul selama kerja praktik adalah keterbatasan akses \textit{root} pada infrastruktur Universitas Indonesia (UI). Akses \textit{root} sangat penting dalam eksperimen, terutama untuk mengunduh \textit{library} atau melakukan konfigurasi yang lebih mendalam pada sistem. Tanpa akses ini, beberapa langkah teknis yang memerlukan izin tingkat sistem tidak dapat dilakukan secara langsung, sehingga menghambat kelancaran eksperimen. Kondisi ini menuntut solusi yang inovatif untuk mengatasi batasan tersebut.
 
-Untuk mengatasi kendala ini, diterapkan solusi Docker-in-Docker (DinD), yang memungkinkan pengunduhan dan instalasi \textit{library} secara independen di dalam container Docker. Pendekatan ini sangat efektif karena dengan menggunakan DinD, dapat dibuat lingkungan isolasi tambahan yang tidak memerlukan akses root langsung pada mesin \textit{host}.
+Untuk mengatasi kendala ini, diterapkan solusi \textit{containerization} dengan dibuatnya Kafka \textit{client container} dan Kafka \textit{cluster container}. Lebih spesifiknya, pendekatan yang diambil adalah Docker-in-Docker (DinD) karena di dalam Kafka \textit{cluster container}, terdapat banyak \textit{broker containers} yang berjalan secara paralel. Pendekatan ini memungkinkan pengunduhan dan instalasi \textit{library} secara independen di dalam lingkungan yang terisolasi tanpa memerlukan akses \textit{root} langsung pada mesin \textit{host}.
 
 \subsubsection{Dokumentasi dari Peneliti Asli Kurang Lengkap atau Usang}
 
