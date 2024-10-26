@@ -12,9 +12,7 @@
 \addvspace {-10pt}
 \contentsline {chapter}{\uppercase {Daftar Tabel}}{viii}{section*.8}%
 \addvspace {-10pt}
-\contentsline {chapter}{\uppercase {\uppercase {Daftar Kode Program}}}{viii}{section*.9}%
-\addvspace {-10pt}
-\contentsline {chapter}{\uppercase {\uppercase {Daftar Lampiran}}}{ix}{section*.10}%
+\contentsline {chapter}{\uppercase {\uppercase {Daftar Lampiran}}}{viii}{section*.9}%
 \contentsline {chapter}{\numberline {1}PENDAHULUAN}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Proses Pencarian Kerja Praktik}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Tempat Kerja Praktik}{1}{section.1.2}%
@@ -37,19 +35,19 @@
 \contentsline {subsection}{\numberline {2.7.1}Komunikasi}{11}{subsection.2.7.1}%
 \contentsline {subsection}{\numberline {2.7.2}Kerja Sama Tim}{12}{subsection.2.7.2}%
 \contentsline {section}{\numberline {2.8}Analisis Pelaksanaan Kerja Praktik}{12}{section.2.8}%
-\contentsline {subsection}{\numberline {2.8.1}Ulasan kesesuaian dan perbedaan dengan KAKP}{12}{subsection.2.8.1}%
-\contentsline {subsection}{\numberline {2.8.2}Ulasan tentang kendala dan cara menanganinya}{12}{subsection.2.8.2}%
-\contentsline {subsubsection}{\numberline {2.8.2.1}Tidak Memiliki Akses Root pada Infrastruktur UI}{13}{subsubsection.2.8.2.1}%
-\contentsline {subsubsection}{\numberline {2.8.2.2}Dokumentasi dari Peneliti Asli Kurang Lengkap atau Usang}{13}{subsubsection.2.8.2.2}%
-\contentsline {subsubsection}{\numberline {2.8.2.3}Penggunaan Resource yang Besar}{13}{subsubsection.2.8.2.3}%
-\contentsline {subsection}{\numberline {2.8.3}Penilaian Individu Terhadap Tempat Kerja Praktik}{14}{subsection.2.8.3}%
-\contentsline {subsection}{\numberline {2.8.4}Relevansi dengan Perkuliahan}{14}{subsection.2.8.4}%
-\contentsline {subsubsection}{\numberline {2.8.4.1}Sistem Operasi}{14}{subsubsection.2.8.4.1}%
-\contentsline {subsubsection}{\numberline {2.8.4.2}Jaringan Komputer}{15}{subsubsection.2.8.4.2}%
-\contentsline {subsubsection}{\numberline {2.8.4.3}Pemrograman Lanjut}{15}{subsubsection.2.8.4.3}%
-\contentsline {chapter}{\numberline {3}PENUTUP}{16}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Kesimpulan}{16}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Saran}{16}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Pelaksana Kerja Praktik Berikutnya}{16}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Fakultas Ilmu Komputer UI}{17}{subsection.3.2.2}%
-\contentsline {chapter}{\uppercase {Daftar Referensi}}{18}{section*.15}%
+\contentsline {subsection}{\numberline {2.8.1}Ulasan kesesuaian dan perbedaan dengan KAKP}{13}{subsection.2.8.1}%
+\contentsline {subsection}{\numberline {2.8.2}Ulasan tentang kendala dan cara menanganinya}{16}{subsection.2.8.2}%
+\contentsline {subsubsection}{\numberline {2.8.2.1}Tidak Memiliki Akses Root pada Infrastruktur UI}{16}{subsubsection.2.8.2.1}%
+\contentsline {subsubsection}{\numberline {2.8.2.2}Dokumentasi dari Peneliti Asli Kurang Lengkap atau Usang}{17}{subsubsection.2.8.2.2}%
+\contentsline {subsubsection}{\numberline {2.8.2.3}Penggunaan Resource yang Besar}{17}{subsubsection.2.8.2.3}%
+\contentsline {subsection}{\numberline {2.8.3}Penilaian Individu Terhadap Tempat Kerja Praktik}{18}{subsection.2.8.3}%
+\contentsline {subsection}{\numberline {2.8.4}Relevansi dengan Perkuliahan}{18}{subsection.2.8.4}%
+\contentsline {subsubsection}{\numberline {2.8.4.1}Sistem Operasi}{18}{subsubsection.2.8.4.1}%
+\contentsline {subsubsection}{\numberline {2.8.4.2}Jaringan Komputer}{18}{subsubsection.2.8.4.2}%
+\contentsline {subsubsection}{\numberline {2.8.4.3}Pemrograman Lanjut}{18}{subsubsection.2.8.4.3}%
+\contentsline {chapter}{\numberline {3}PENUTUP}{20}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Kesimpulan}{20}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Saran}{20}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Pelaksana Kerja Praktik Berikutnya}{20}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Fakultas Ilmu Komputer UI}{21}{subsection.3.2.2}%
+\contentsline {chapter}{\uppercase {Daftar Referensi}}{22}{section*.14}%

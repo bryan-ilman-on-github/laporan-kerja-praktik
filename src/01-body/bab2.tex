@@ -34,7 +34,7 @@ Distributed System adalah sistem yang terdiri dari beberapa \textit{node} yang t
 
 \section{Metodologi Pekerjaan}
 
-Selama pelaksanaan kerja praktik, penelitian dilakukan dengan metodologi yang berfokus pada eksperimen \textit{end-to-end} yang bertujuan untuk memantau dan menganalisis perilaku \textit{real-time distributed systems} menggunakan Apache Kafka. Tahapan pekerjaan yang dilaksanakan secara bertahap sesuai dengan proses yang dirancang, mulai dari pengaturan infrastruktur hingga analisis hasil eksperimen. Berikut adalah tahapan metodologi pekerjaan yang dilakukan selama kerja praktik:
+Metodologi eksperimental kuantitatif dalam proyek ini melibatkan pengumpulan dan analisis data numerik secara end-to-end untuk mengukur performa Apache Kafka pada berbagai konfigurasi sistem. Tahapan pekerjaan yang dilaksanakan secara bertahap sesuai dengan proses yang dirancang, mulai dari pengaturan infrastruktur hingga analisis hasil eksperimen. Berikut adalah tahapan metodologi pekerjaan yang dilakukan selama kerja praktik:
 
 \begin{enumerate}
 
@@ -102,7 +102,7 @@ Pelaksana kerja praktik mengusulkan ide kepada dosen peneliti untuk mengembangka
 	\label{fig:latency-cdf}
 \end{figure}
 
-Salah satu temuan utama dari eksperimen ini adalah bahwa metode penentuan jumlah partisi sangat memengaruhi \textit{throughput} dan latensi: Terlihat pada \pic~\ref{fig:latency-cdf} bahwa algoritma BroMax, yang aktif memaksimalkan penggunaan semua sumber daya yang tersedia untuk mendistribusikan beban kerja, berhasil mempertahankan latensi yang rendah sehingga menghasilkan \textit{throughput} yang relatif lebih tinggi. Sebaliknya, algoritma BroMin, yang lebih konservatif dalam penggunaan sumber daya, cenderung memiliki latensi yang sedikit lebih tinggi, sehingga \textit{throughput}-nya relatif lebih rendah.
+Salah satu temuan utama dari eksperimen ini adalah bahwa metode penentuan jumlah partisi sangat memengaruhi \textit{throughput} dan latensi. \pic~\ref{fig:latency-cdf} menampilkan CDF, yaitu garis kurva yang menunjukkan persentase kumulatif latency pada \textit{millisecond} tertentu. Garis yang lebih tinggi di awal menunjukkan lebih banyak latency rendah, yang berarti performa lebih baik. Terlihat pada \pic~\ref{fig:latency-cdf} bahwa algoritma BroMax, yang aktif memaksimalkan penggunaan semua sumber daya yang tersedia untuk mendistribusikan beban kerja, berhasil mempertahankan latensi yang rendah sehingga menghasilkan \textit{throughput} yang relatif lebih tinggi. Sebaliknya, algoritma BroMin, yang lebih konservatif dalam penggunaan sumber daya, cenderung memiliki latensi yang sedikit lebih tinggi, sehingga \textit{throughput}-nya relatif lebih rendah.
 
 Selain itu, terlihat pula pada \pic~\ref{fig:latency-cdf} bahwa jumlah produsen yang lebih banyak justru mengurangi latensi secara keseluruhan, berlawanan dengan intuisi awal yang menganggap bahwa lebih banyak produsen akan meningkatkan beban klaster dan menyebabkan latensi lebih tinggi. Setelah diskusi dengan tim, didapat penjelasan untuk temuan ini bahwa tingginya \textit{overhead} pada klaster dengan sedikit produsen tidak ideal untuk beban kerja yang sebenarnya. Sebaliknya, pada klaster dengan lebih banyak produsen, \textit{overhead} menjadi tidak signifikan dibandingkan dengan beban kerja yang ada, sehingga performanya lebih stabil. Hasil eksperimen ini memberikan wawasan yang lebih mendalam tentang pengoptimalan konfigurasi klaster Kafka.
 
@@ -130,9 +130,112 @@ Kerja sama tim merupakan aspek lain yang sangat penting dalam pelaksanaan proyek
 
 Pada bagian ini dijelaskan analisis menyeluruh mengenai pelaksanaan kerja praktik. Penjelasan dimulai dengan mengkaji kesesuaian pelaksanaan kerja praktik terhadap kerangka acuan kerja praktik yang telah disusun. Selain itu, kendala-kendala yang muncul selama kerja praktik berlangsung juga akan diuraikan, beserta solusi yang diterapkan untuk mengatasi hambatan tersebut.
 
+\newpage
+
 \subsection{Ulasan kesesuaian dan perbedaan dengan KAKP}
 
-Secara keseluruhan, pelaksanaan kerja praktik telah berjalan sesuai dengan yang tercantum dalam Kerangka Acuan Kerja Praktik (KAKP). Semua target yang telah ditetapkan terlaksana dengan baik, dan tidak ada permintaan yang melebihi apa yang telah diuraikan dalam KAKP.
+\begin{longtable}{|p{2.6cm}|p{8cm}|c|}
+	\caption{Perbandingan Rencana dan Realisasi Kerja Praktik}
+	\label{tab:realisasi-kerja} \\
+	\hline
+    \textbf{Waktu} & \textbf{Rencana Kerja} & \textbf{Realisasi Kerja} \\
+    \hline
+    Minggu 1\newline
+	(3 Juni 2024 -- 7 Juni 2024) &
+	\textbf{Meninjau jurnal dari Elsevier dan mencari penelitian terbaru mengenai Apache Kafka yang dapat diterapkan kembali di CSL.}\newline
+	-- Menganalisis metodologi dan hasil dari paper berjudul "Efficient topic partitioning of Apache Kafka for high-reliability real-time data streaming applications".\vspace{0.5cm}\newline
+	\textbf{Bergabung dengan Komunitas FogVerse.}\newline
+	-- Bergabung dengan komunitas FogVerse di WhatsApp dan Discord.\vspace{0.5cm} &
+	Sesuai dengan KAKP \\
+    \hline
+    Minggu 2\newline
+	(10 Juni 2024 -- 14 Juni 2024) &
+	\textbf{Merumuskan langkah-langkah untuk menerapkan kembali isi paper.}\newline
+	-- Membaca dan memahami paper yang akan	diterapkan kembali.\newline
+	-- Merancang langkah-langkah secara detail.\vspace{0.5cm}\newline
+	\textbf{Mengikuti perkembangan proyek flagship CSL, yaitu FogVerse.}\newline
+	-- Mempelajari kode FogVerse dari GitHub.\newline
+	-- Mengunduh kode FogVerse.\vspace{0.5cm} &
+	Sesuai dengan KAKP \\
+	\hline
+    Minggu 3\newline
+	(17 Juni 2024 -- 21 Juni 2024) &
+	\textbf{Mengkaji kode Kafka Topic Partitioning yang ada	di paper.}\newline
+	-- Memeriksa kode untuk eksperimen, memastikan semua baris kode telah terkumpul.\newline
+	-- Merumuskan seluruh dependensi yang diperlukan.\vspace{0.5cm} &
+	Sesuai dengan KAKP \\
+	\hline
+    Minggu 4\newline
+	(24 Juni 2024 -- 28 Juni 2024) &
+	\textbf{Mengatur pertemuan dan menyiapkan presentasi awal.}\newline
+	-- Mengatur pertemuan dengan Brandon dan Ikram, yang merupakan penerus penelitian flagship tentang Kafka di CSL.\newline
+	-- Menyiapkan file serta pertanyaan untuk presentasi awal kepada Bapak Hilman tentang progres.\vspace{0.5cm} &
+	Sesuai dengan KAKP \\
+	\hline
+    Minggu 5\newline
+	(1 Juli 2024 -- 5 Juli 2024) &
+	\textbf{Merencanakan dan mengatur spesifikasi VM di	GCP.}\newline
+	-- Mengatur dan menghubungkan dua VM tempat	eksperimen di GCP. kedua VM akan digunakan untuk Kafka Cluster dan Kafka Clients.\newline
+	-- Melakukan eksperimen kalibrasi (bukan eksperimen	utama).\vspace{0.5cm} &
+	Sesuai dengan KAKP \\
+	\hline
+    Minggu 6\newline
+	(8 Juli 2024 -- 12 Juli 2024) &
+	\textbf{Membagi tugas eksperimen.}\newline
+	-- Membagi tugas eksperimen dengan Rifqi dan Anin, yang merupakan rekan dalam menerapkan ulang paper.\newline
+	-- Memodifikasi spesifikasi VM untuk mengatasi masalah selama eksperimen.\vspace{0.5cm} &
+	Sesuai dengan KAKP \\
+	\hline
+    Minggu 7\newline
+	(15 Juli 2024 -- 19 Juli 2024) &
+	\textbf{Menjalankan eksperimen.}\newline
+	-- Menjalankan eksperimen utama yang merupakan inti dari penerapan ulang paper.\newline
+	-- Memeriksa performa VM.\newline
+	-- Menyampaikan kebutuhan sumber daya kepada Bapak Hilman jika diperlukan.\vspace{0.5cm} &
+	Sesuai dengan KAKP \\
+	\hline
+    Minggu 8\newline
+	(22 Juli 2024 -- 26 Juli 2024) &
+	\textbf{Membuat plot dan menganalisis hasil eksperimen.}\newline
+	-- Membuat plot dari hasil eksperimen.\newline
+	-- Menganalisis hasil eksperimen.\newline
+	-- Berdiskusi dengan tim tentang kemajuan eksperimen dan hasil yang diperoleh.\vspace{0.5cm} &
+	Sesuai dengan KAKP \\
+	\hline
+    Minggu 9\newline
+	(29 Juli 2024 -- 2 Agustus 2024) &
+	\textbf{Melakukan ulang eksperimen pada infrastruktur UI.}\newline
+	-- Mengakses mesin DGX dan mesin BMKGCS milik UI, yang memiliki sumber daya jauh lebih besar dibandingkan VM murah di GCP, untuk mendekati kondisi penelitian asli.\newline
+	-- Melakukan eksperimen hingga jalan.\vspace{0.5cm} &
+	Sesuai dengan KAKP \\
+	\hline
+    Minggu 10\newline
+	(5 Agustus 2024 -- 9 Agustus 2024) &
+	\textbf{Melakukan ulang eksperimen dengan Setup	Docker-in-Docker pada infrastruktur UI.}\newline
+	-- Melakukan ulang eksperimen pada infrastruktur UI	dengan batasan VM seperti yang dijelaskan dalam paper, agar lebih mirip dengan penelitian asli. Untuk ini, diperlukan pengaturan Docker-in-Docker agar container yang berisi Kafka cluster dan Kafka clients dapat dikonfigurasi tanpa perlu root access pada hostnya.\vspace{0.5cm}\newline
+	\textbf{Membuat plot dan menganalisis hasil eksperimen.}\newline
+	-- Membuat plot dari hasil eksperimen.\newline
+	-- Menganalisis hasil eksperimen.\newline
+	-- Berdiskusi dengan tim tentang kemajuan eksperimen dan hasil yang diperoleh.\vspace{0.5cm} &
+	Sesuai dengan KAKP \\
+	\hline
+    Minggu 11\newline
+	(12 Agustus 2024 -- 16 Agustus 2024) &
+	\textbf{Mengatur pertemuan dengan peneliti asli.}\newline
+	-- Menghubungi Profesor Claudio Cicconetti melalui email untuk merencanakan pertemuan online.\newline
+	-- Mengadakan pertemuan dengan Claudio Cicconetti untuk klarifikasi hal-hal yang masih diragukan dan meminta evaluasinya.\vspace{0.5cm} &
+	Sesuai dengan KAKP \\
+	\hline
+    Minggu 12\newline
+	(19 Agustus 2024 -- 23 Agustus 2024) &
+	\textbf{Melakukan presentasi akhir.}\newline
+	-- Menyampaikan laporan hasil kegiatan kepada Bapak Hilman.\vspace{0.5cm}\newline
+	\textbf{Menyusun laporan akhir kerja praktik untuk keperluan fakultas.}\vspace{0.5cm} &
+	Sesuai dengan KAKP \\
+    \hline
+\end{longtable}
+
+Seperti yang dapat dilihat pada \tab~\ref{tab:realisasi-kerja}, secara keseluruhan, pelaksanaan kerja praktik telah berjalan sesuai dengan yang tercantum dalam Kerangka Acuan Kerja Praktik (KAKP). Semua target yang telah ditetapkan terlaksana dengan baik, dan tidak ada permintaan yang melebihi apa yang telah diuraikan dalam KAKP.
 
 \subsection{Ulasan tentang kendala dan cara menanganinya}
 
@@ -154,7 +257,7 @@ Untuk mengatasi masalah ini, dilakukan improvisasi terhadap beberapa langkah eks
 
 Salah satu tantangan terbesar yang pelaksana kerja praktik hadapi selama kerja praktik adalah kebutuhan sumber daya komputasi yang sangat tinggi, terutama saat menjalankan eksperimen di Google Cloud Platform (GCP). Awalnya, konfigurasi awal VM yang dibuat tidak memiliki cukup kapasitas untuk menangani eksperimen berat yang melibatkan proses \textit{real-time data streaming} menggunakan Apache Kafka. Keterbatasan ini menyebabkan VM sering kali kehabisan memori atau mengalami penurunan performa, yang berdampak pada tidak optimalnya hasil eksperimen.
 
-Untuk mengatasi masalah ini, pelaksana kerja praktik melakukan beberapa iterasi dalam penyesuaian alokasi sumber daya pada VM di GCP. Setelah beberapa percobaan dan pemantauan terhadap penggunaan CPU dan RAM, ditemukan bahwa eksperimen ini memerlukan alokasi sebesar 128 GB RAM dan 64 core CPU agar dapat berjalan dengan lancar tanpa hambatan. Dengan peningkatan sumber daya ini, eksperimen berhasil berjalan dengan performa optimal.
+Untuk mengatasi masalah ini, dilakukan beberapa iterasi dalam penyesuaian alokasi sumber daya pada VM di GCP. Setelah beberapa percobaan dan pemantauan terhadap penggunaan CPU dan RAM, ditemukan bahwa eksperimen ini memerlukan alokasi sebesar 128 GB RAM dan 64 core CPU agar dapat berjalan dengan lancar tanpa hambatan. Dengan peningkatan sumber daya ini, eksperimen berhasil berjalan dengan performa optimal.
 
 \subsection{Penilaian Individu Terhadap Tempat Kerja Praktik}
 

@@ -492,10 +492,6 @@ INPUT ./laporan.lot
 INPUT ./laporan.lot
 INPUT laporan.lot
 OUTPUT laporan.lot
-INPUT ./laporan.lol
-INPUT ./laporan.lol
-INPUT laporan.lol
-OUTPUT laporan.lol
 INPUT ./laporan.lox
 INPUT ./laporan.lox
 INPUT laporan.lox
