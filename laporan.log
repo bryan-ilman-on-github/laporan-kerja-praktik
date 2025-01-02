@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.20)  2 JAN 2025 11:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.20)  2 JAN 2025 11:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1035,18 +1035,8 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
 
-Underfull \hbox (badness 5862) in paragraph at lines 20--21
-[]|\OT1/ptm/m/n/12 Eksperimen \OT1/ptm/m/it/12 End-To-End \OT1/ptm/m/n/12 un-tuk \OT1/ptm/m/it/12 Kafka Re-source
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
-\OT1/ptm/m/it/12 Man-age-ment \OT1/ptm/m/n/12 pada peneli-tian ``Ef-fi-cient topic
- []
-
-
-Underfull \hbox (badness 1694) in paragraph at lines 20--21
-\OT1/ptm/m/n/12 par-ti-tion-ing of Apache Kafka for high-reliability
+Underfull \hbox (badness 1596) in paragraph at lines 20--21
+[]|\OT1/ptm/m/n/12 Eksperimen \OT1/ptm/m/it/12 End-to-End Kafka Topic Par-ti-tion-ing
  []
 
 
@@ -1093,11 +1083,6 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 \openout2 = `src/00-frontMatter/abstrak.aux'.
 
 (./src/00-frontMatter/abstrak.tex
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
-[]|\OT1/ptm/m/n/12 Eksperimen \OT1/ptm/m/it/12 End-To-End \OT1/ptm/m/n/12 un-tuk \OT1/ptm/m/it/12 Kafka Re-source
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 4--26
 
  []
@@ -1130,6 +1115,11 @@ LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
 \openout2 = `src/00-frontMatter/abstract.aux'.
 
  (./src/00-frontMatter/abstract.tex
+Underfull \hbox (badness 3954) in paragraph at lines 15--16
+[]|\OT1/ptm/m/n/12 End-to-End Ex-per-i-ment on Kafka Topic Par-ti-tion-ing with
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 4--26
 
  []
@@ -2268,13 +2258,13 @@ Package rerunfilecheck Info: File `laporan.out' has not changed.
 Here is how much of TeX's memory you used:
  27848 strings out of 473579
  513526 string characters out of 5732263
- 896844 words of memory out of 5000000
+ 896442 words of memory out of 5000000
  49880 multiletter control sequences out of 15000+600000
  587008 words of font info for 91 fonts, out of 8000000 for 9000
  1274 hyphenation exceptions out of 8191
  114i,18n,115p,2510b,728s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on laporan.pdf (68 pages, 9662473 bytes).
+Output written on laporan.pdf (68 pages, 9661433 bytes).
 PDF statistics:
  763 PDF objects out of 1000 (max. 8388607)
  623 compressed objects within 7 object streams
