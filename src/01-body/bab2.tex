@@ -4,7 +4,7 @@ Pada bab ini dijlaskan secara rinci mengenai detil pekerjaan yang dilakukan sela
 
 \section{Latar Belakang Pekerjaan}
 
-Pelaksana kerja praktik terlibat dalam penelitian terkait manajemen klaster Kafka di Computer Systems Laboratory (CSL) Fakultas Ilmu Komputer Universitas Indonesia. Penelitian ini berfokus pada optimalisasi partisi topik untuk meningkatkan performa \textit{real-time distributed systems} berbasis Kafka. Proyek ini merupakan bagian dari penelitian bertajuk \textit{Efficient Topic Partitioning of Apache Kafka for High-Reliability Real-Time Data Streaming Applications}. Tugas pelaksana kerja praktik adalah menjalankan eksperimen yang bertujuan untuk menguji algoritma BroMax dan BroMin, yang digunakan untuk menentukan jumlah partisi optimal.
+Pelaksana kerja praktik terlibat dalam penelitian terkait manajemen klaster Kafka di Computer Systems Laboratory (CSL) Fakultas Ilmu Komputer Universitas Indonesia. Penelitian ini berfokus pada optimalisasi partisi topik untuk meningkatkan performa \textit{real-time distributed systems} berbasis Kafka. Proyek ini merupakan bagian dari penelitian bertajuk \textit{Efficient Topic Partitioning of Apache Kafka for High-Reliability Real-Time Data Streaming Applications}. Tugas pelaksana kerja praktik adalah menjalankan eksperimen yang bertujuan untuk menguji algoritma yang digunakan untuk menentukan jumlah partisi optimal, berupa BroMax dan BroMin \citep{elsevier:kafka}.
 
 \section{Deskripsi Pekerjaan}
 
@@ -18,7 +18,7 @@ Penelitian yang dilakukan selama kerja praktik ini melibatkan sejumlah konsep pe
 
 \subsection{Apache Kafka}
 
-Apache Kafka adalah platform \textit{open-source} yang dirancang untuk menangani \textit{data streaming} secara \textit{real-time} dengan \textit{throughput} tinggi dan latensi rendah. Data dibagi menjadi topik-topik yang dipartisi, sehingga memungkinkan pemrosesan paralel yang lebih efisien di seluruh klaster \citep{elsevier:kafka}. Partisi pada topik Kafka sangat penting karena memungkinkan distribusi beban kerja yang merata antar broker, sehingga meningkatkan kemampuan sistem untuk menangani data dalam jumlah besar tanpa menimbulkan \textit{bottleneck} \citep{elsevier:kafka}. Selain itu, dengan optimalisasi jumlah partisi yang tepat, \textit{throughput} sistem dapat dimaksimalkan, sehingga menjaga kinerja tinggi meskipun volume data yang diproses sangat besar \citep{elsevier:kafka}.
+Apache Kafka adalah platform \textit{open-source} yang dirancang untuk menangani \textit{data streaming} secara \textit{real-time} dengan \textit{throughput} tinggi dan latensi rendah. Data dibagi menjadi topik-topik yang dipartisi, sehingga memungkinkan pemrosesan paralel yang lebih efisien di seluruh klaster \citep{elsevier:kafka}. Partisi pada topik Kafka sangat penting karena memungkinkan distribusi beban kerja yang merata antar \textit{broker}, sehingga meningkatkan kemampuan sistem untuk menangani data dalam jumlah besar tanpa menimbulkan \textit{bottleneck} \citep{elsevier:kafka}. Selain itu, dengan optimalisasi jumlah partisi yang tepat, \textit{throughput} sistem dapat dimaksimalkan, sehingga menjaga kinerja tinggi meskipun volume data yang diproses sangat besar \citep{elsevier:kafka}.
 
 \subsection{Docker Containerization}
 
@@ -56,7 +56,7 @@ Metodologi eksperimental kuantitatif dalam proyek ini melibatkan pengumpulan dan
 
 	\item \textbf{Eksperimen Infrastruktur UI}. Setelah eksperimen di GCP berhasil dilaksanakan, eksperimen serupa diulang pada infrastruktur UI menggunakan mesin DGX dan BMKGCS tanpa akses \textit{root}. Eksperimen ini dilakukan untuk memastikan bahwa hasil eksperimen dapat direplikasi di lingkungan yang berbeda dengan kapasitas sumber daya yang lebih besar.
 
-	\item \textbf{Implementasi Containerization dengan Docker}. Dalam eksperimen ini, Docker digunakan untuk membangun dan mengelola \textit{container} yang berisi aplikasi Apache Kafka. Pelaksana kerja praktik mempelajari cara kerja Docker, mulai dari membangun \textit{image} hingga pengaturan komunikasi antar \textit{container}. Dengan \textit{containerization}, eksperimen dapat dijalankan pada \textit{host} tanpa akses \textit{root} sekalipun. Eksperimen ini juga mengeksplorasi penggunaan teknologi Docker-in-Docker (DinD) ketika membuat Kafka \textit{scluster container} yang di dalamnya berisi beberapa \textit{sbroker containers}.
+	\item \textbf{Implementasi Containerization dengan Docker}. Dalam eksperimen ini, Docker digunakan untuk membangun dan mengelola \textit{container} yang berisi aplikasi Apache Kafka. Pelaksana kerja praktik mempelajari cara kerja Docker, mulai dari membangun \textit{image} hingga pengaturan komunikasi antar \textit{container}. Dengan \textit{containerization}, eksperimen dapat dijalankan pada \textit{host} tanpa akses \textit{root} sekalipun. Eksperimen ini juga mengeksplorasi penggunaan teknologi Docker-in-Docker (DinD) ketika membuat Kafka \textit{cluster container} yang di dalamnya berisi beberapa \textit{sbroker containers}.
 
 	\item \textbf{Analisis Data dan Pelaporan}. Setelah seluruh eksperimen selesai dijalankan, data hasil eksperimen dianalisis untuk membuat plot yang menggambarkan performa \textit{throughput} dan latensi sistem. Plot ini kemudian digunakan untuk mendeskripsikan perilaku algoritma BroMax dan BroMin dalam kondisi eksperimen yang telah dilakukan. Hasil analisis ini kemudian disajikan dalam laporan kepada dosen peneliti, serta didiskusikan dengan para peneliti lainnya untuk mendapatkan umpan balik dan evaluasi lebih lanjut mengenai hasil eksperimen.
 
@@ -86,11 +86,11 @@ Selama pengerjaan proyek pada kerja praktik, beberapa teknologi utama digunakan 
 
 \section{Hasil Pekerjaan}
 
-Selama periode kerja praktik, pelaksana terlibat dalam tugas-tugas yang menuntut analisis mendalam terkait {real-time data streaming} menggunakan Apache Kafka. Pada bagian ini dijelaskan tugas apa saja yang sudah diselesaikan pada periode kerja praktik berlangsung.
+Selama periode kerja praktik, pelaksana terlibat dalam tugas-tugas yang menuntut analisis mendalam terkait \textit{real-time data streaming} menggunakan Apache Kafka. Pada bagian ini dijelaskan tugas apa saja yang sudah diselesaikan pada periode kerja praktik berlangsung.
 
 \subsection{Framework Berbasis Containerization dengan Pendekatan Docker-in-Docker (DinD)}
 
-Pelaksana kerja praktik mengusulkan ide kepada dosen peneliti untuk mengembangkan \textit{framework} berbasis \textit{containerization} dengan pendekatan Docker-in-Docker (DinD). \textit{Framework} ini dirancang agar dapat mengotomatisasi seluruh proses \textit{setup}, termasuk pembuatan Kafka \textit{scluster container} yang di dalamnya berisi beberapa \textit{sbroker containers}, tanpa perlu akses \textit{root} pada \textit{host}, sehingga pengguna hanya perlu menjalankan sedikit skrip tanpa perlu mengulang pengaturan secara manual. Dengan adanya \textit{framework} ini, pelaksana kerja praktik dapat langsung fokus pada analisis eksperimen tanpa harus khawatir tentang masalah teknis terkait lingkungan yang berulang kali harus disesuaikan. \textit{Framework} ini dapat diakses oleh siapa saja melalui \textcolor{blue}{\href{https://github.com/bryan-ilman-on-github/kafka-part-exp}{https://github.com/bryan-ilman-on-github/kafka-part-exp}}.
+Pelaksana kerja praktik mengusulkan ide kepada dosen peneliti untuk mengembangkan \textit{framework} berbasis \textit{containerization} dengan pendekatan Docker-in-Docker (DinD). \textit{Framework} ini dirancang agar dapat mengotomatisasi seluruh proses \textit{setup}, termasuk pembuatan Kafka \textit{cluster container} yang di dalamnya berisi beberapa \textit{broker containers}, tanpa perlu akses \textit{root} pada \textit{host}, sehingga pengguna hanya perlu menjalankan sedikit skrip tanpa perlu mengulang pengaturan secara manual. Dengan adanya \textit{framework} ini, pelaksana kerja praktik dapat langsung fokus pada analisis eksperimen tanpa harus khawatir tentang masalah teknis terkait lingkungan yang berulang kali harus disesuaikan. \textit{Framework} ini dapat diakses oleh siapa saja melalui \textcolor{blue}{\href{https://github.com/bryan-ilman-on-github/kafka-part-exp}{https://github.com/bryan-ilman-on-github/kafka-part-exp}}.
 
 \subsection{Analisis Eksperimen End-To-End}
 
@@ -120,7 +120,7 @@ Dalam pelaksanaan kerja praktik, terdapat berbagai pembelajaran non-teknis yang 
 	\label{fig:first-email}
 \end{figure}
 
-Selama kerja praktik, komunikasi memainkan peranan yang sangat penting dalam memastikan kelancaran proyek dan kesesuaian hasil dengan tujuan yang ditetapkan. Salah satu contoh penting dalam hal ini adalah komunikasi yang dilakukan melalui email dengan Profesor Claudio Cicconetti dari Università di Pisa, penulis penelitian yang eksperimennya sedang pelaksana kerja praktik coba untuk replikasi. Terlihat pada \pic~\ref{fig:first-email} bahwa pelaksana kerja praktik pertama kali menginformasikan kepada Profesor Cicconetti bahwa eksperimennya sedang direproduksi. Setelah itu, email-email selanjutnya berfokus pada klarifikasi mengenai beberapa aspek teknis dari penelitiannya, dan beliau dengan ramah memberikan tanggapan serta penjelasan yang sangat membantu. Hal ini menekankan pentingnya komunikasi yang efektif dalam lingkungan akademik dan profesional, terutama saat bekerja dengan pihak eksternal yang memiliki keahlian khusus dalam bidang tertentu.
+Selama kerja praktik, komunikasi memainkan peranan yang sangat penting dalam memastikan kelancaran proyek dan kesesuaian hasil dengan tujuan yang ditetapkan. Salah satu contoh penting dalam hal ini adalah komunikasi yang dilakukan melalui email dengan Profesor Claudio Cicconetti dari University of Pisa, penulis penelitian yang eksperimennya sedang pelaksana kerja praktik coba untuk replikasi. Terlihat pada \pic~\ref{fig:first-email} bahwa pelaksana kerja praktik pertama kali menginformasikan kepada Profesor Cicconetti bahwa eksperimennya sedang direproduksi. Setelah itu, email-email selanjutnya berfokus pada klarifikasi mengenai beberapa aspek teknis dari penelitiannya, dan beliau dengan ramah memberikan tanggapan serta penjelasan yang sangat membantu. Hal ini menekankan pentingnya komunikasi yang efektif dalam lingkungan akademik dan profesional, terutama saat bekerja dengan pihak eksternal yang memiliki keahlian khusus dalam bidang tertentu.
 
 \subsection{Kerja Sama Tim}
 
@@ -268,10 +268,10 @@ CSL merupakan lingkungan kerja yang dinamis dan menyenangkan. Banyak inovasi bar
 Selama kerja praktik, beberapa tugas yang diberikan memiliki relevansi langsung dengan pembelajaran yang didapatkan dari beberapa mata kuliah di Fakultas Ilmu Komputer UI. Berikut adalah mata kuliah yang relevan:
 
 \subsubsection{Sistem Operasi}
-Mata kuliah Sistem Operasi memberikan pemahaman tentang penggunaan GNU/Linux, \textit{rscripting bash}, serta manajemen proses dan memori. Pengetahuan ini sangat berguna selama kerja praktik, di mana \textit{rbash scripting} digunakan untuk mengotomatisasi tugas-tugas tertentu dan mengonfigurasi virtual machine.
+Mata kuliah Sistem Operasi memberikan pemahaman tentang penggunaan GNU/Linux, \textit{bash scripting}, serta manajemen proses dan memori. Pengetahuan ini sangat berguna selama kerja praktik, di mana \textit{bash scripting} digunakan untuk mengotomatisasi tugas-tugas tertentu dan mengonfigurasi virtual machine.
 
 \subsubsection{Jaringan Komputer}
 Mata kuliah ini memberikan dasar yang kuat tentang prinsip-prinsip jaringan, mulai dari lapisan aplikasi hingga lapisan fisik, serta aspek keamanan jaringan. Selama kerja praktik, pemahaman ini diterapkan untuk memastikan aliran data berjalan lancar, mengatur koneksi SSH, dan mengelola setup VM di platform seperti GCP dan infrastruktur UI, sehingga komunikasi jaringan dan pengalokasian sumber daya berjalan dengan optimal.
 
 \subsubsection{Pemrograman Lanjut}
-Pada mata kuliah Pemrograman Lanjut, dipelajari konsep manajemen pesan dengan RabbitMQ. Di tempat kerja praktik, konsep ini diterapkan menggunakan Apache Kafka, sebuah platform yang lebih sesuai untuk kebutuhan \textit{rreal-time data streaming} yang kompleks.
+Pada mata kuliah Pemrograman Lanjut, dipelajari konsep manajemen pesan dengan RabbitMQ. Di tempat kerja praktik, konsep ini diterapkan menggunakan Apache Kafka, sebuah platform yang lebih sesuai untuk kebutuhan \textit{real-time data streaming} yang kompleks.
